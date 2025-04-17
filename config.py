@@ -1,2 +1,6 @@
-# Вставь сюда свой токен от BotFather
-TOKEN = "TOKEN=123456789:ABCDefghIJKlmNoPQRstuVWxyZ0123456789"
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+TOKEN = os.getenv("TOKEN")
