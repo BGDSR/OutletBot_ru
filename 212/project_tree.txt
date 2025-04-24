@@ -1,0 +1,2654 @@
+﻿╤ЄЁєъЄєЁр яряюъ
+╤хЁшщэ√щ эюьхЁ Єюьр: B402-9778
+C:.
+ж   app.py
+ж   loclx.exe
+ж   project_tree.txt
+ж   requirements.txt
+ж   start.ps1
+ж   
++---.idea
+ж   ж   .gitignore
+ж   ж   dropshipping_bot.iml
+ж   ж   misc.xml
+ж   ж   modules.xml
+ж   ж   workspace.xml
+ж   ж   
+ж   L---inspectionProfiles
+ж           profiles_settings.xml
+ж           
++---static
++---templates
+ж       index.html.txt
+ж       
+L---venv
+    ж   .gitignore
+    ж   pyvenv.cfg
+    ж   
+    +---Include
+    +---Lib
+    ж   L---site-packages
+    ж       +---anyio
+    ж       ж   ж   from_thread.py
+    ж       ж   ж   lowlevel.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   pytest_plugin.py
+    ж       ж   ж   to_interpreter.py
+    ж       ж   ж   to_process.py
+    ж       ж   ж   to_thread.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   +---abc
+    ж       ж   ж   ж   _eventloop.py
+    ж       ж   ж   ж   _resources.py
+    ж       ж   ж   ж   _sockets.py
+    ж       ж   ж   ж   _streams.py
+    ж       ж   ж   ж   _subprocesses.py
+    ж       ж   ж   ж   _tasks.py
+    ж       ж   ж   ж   _testing.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           _eventloop.cpython-313.pyc
+    ж       ж   ж           _resources.cpython-313.pyc
+    ж       ж   ж           _sockets.cpython-313.pyc
+    ж       ж   ж           _streams.cpython-313.pyc
+    ж       ж   ж           _subprocesses.cpython-313.pyc
+    ж       ж   ж           _tasks.cpython-313.pyc
+    ж       ж   ж           _testing.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---streams
+    ж       ж   ж   ж   buffered.py
+    ж       ж   ж   ж   file.py
+    ж       ж   ж   ж   memory.py
+    ж       ж   ж   ж   stapled.py
+    ж       ж   ж   ж   text.py
+    ж       ж   ж   ж   tls.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           buffered.cpython-313.pyc
+    ж       ж   ж           file.cpython-313.pyc
+    ж       ж   ж           memory.cpython-313.pyc
+    ж       ж   ж           stapled.cpython-313.pyc
+    ж       ж   ж           text.cpython-313.pyc
+    ж       ж   ж           tls.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_backends
+    ж       ж   ж   ж   _asyncio.py
+    ж       ж   ж   ж   _trio.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           _asyncio.cpython-313.pyc
+    ж       ж   ж           _trio.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_core
+    ж       ж   ж   ж   _asyncio_selector_thread.py
+    ж       ж   ж   ж   _eventloop.py
+    ж       ж   ж   ж   _exceptions.py
+    ж       ж   ж   ж   _fileio.py
+    ж       ж   ж   ж   _resources.py
+    ж       ж   ж   ж   _signals.py
+    ж       ж   ж   ж   _sockets.py
+    ж       ж   ж   ж   _streams.py
+    ж       ж   ж   ж   _subprocesses.py
+    ж       ж   ж   ж   _synchronization.py
+    ж       ж   ж   ж   _tasks.py
+    ж       ж   ж   ж   _tempfile.py
+    ж       ж   ж   ж   _testing.py
+    ж       ж   ж   ж   _typedattr.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           _asyncio_selector_thread.cpython-313.pyc
+    ж       ж   ж           _eventloop.cpython-313.pyc
+    ж       ж   ж           _exceptions.cpython-313.pyc
+    ж       ж   ж           _fileio.cpython-313.pyc
+    ж       ж   ж           _resources.cpython-313.pyc
+    ж       ж   ж           _signals.cpython-313.pyc
+    ж       ж   ж           _sockets.cpython-313.pyc
+    ж       ж   ж           _streams.cpython-313.pyc
+    ж       ж   ж           _subprocesses.cpython-313.pyc
+    ж       ж   ж           _synchronization.cpython-313.pyc
+    ж       ж   ж           _tasks.cpython-313.pyc
+    ж       ж   ж           _tempfile.cpython-313.pyc
+    ж       ж   ж           _testing.cpython-313.pyc
+    ж       ж   ж           _typedattr.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           from_thread.cpython-313.pyc
+    ж       ж           lowlevel.cpython-313.pyc
+    ж       ж           pytest_plugin.cpython-313.pyc
+    ж       ж           to_interpreter.cpython-313.pyc
+    ж       ж           to_process.cpython-313.pyc
+    ж       ж           to_thread.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---anyio-4.9.0.dist-info
+    ж       ж       entry_points.txt
+    ж       ж       INSTALLER
+    ж       ж       LICENSE
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       top_level.txt
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---blinker
+    ж       ж   ж   base.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   _utilities.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           base.cpython-313.pyc
+    ж       ж           _utilities.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---blinker-1.9.0.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE.txt
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---certifi
+    ж       ж   ж   cacert.pem
+    ж       ж   ж   core.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   __init__.py
+    ж       ж   ж   __main__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           core.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           __main__.cpython-313.pyc
+    ж       ж           
+    ж       +---certifi-2025.1.31.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       top_level.txt
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---charset_normalizer
+    ж       ж   ж   api.py
+    ж       ж   ж   cd.py
+    ж       ж   ж   constant.py
+    ж       ж   ж   legacy.py
+    ж       ж   ж   md.cp313-win_amd64.pyd
+    ж       ж   ж   md.py
+    ж       ж   ж   md__mypyc.cp313-win_amd64.pyd
+    ж       ж   ж   models.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   utils.py
+    ж       ж   ж   version.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   __main__.py
+    ж       ж   ж   
+    ж       ж   +---cli
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   __main__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           __main__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           api.cpython-313.pyc
+    ж       ж           cd.cpython-313.pyc
+    ж       ж           constant.cpython-313.pyc
+    ж       ж           legacy.cpython-313.pyc
+    ж       ж           md.cpython-313.pyc
+    ж       ж           models.cpython-313.pyc
+    ж       ж           utils.cpython-313.pyc
+    ж       ж           version.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           __main__.cpython-313.pyc
+    ж       ж           
+    ж       +---charset_normalizer-3.4.1.dist-info
+    ж       ж       entry_points.txt
+    ж       ж       INSTALLER
+    ж       ж       LICENSE
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       top_level.txt
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---click
+    ж       ж   ж   core.py
+    ж       ж   ж   decorators.py
+    ж       ж   ж   exceptions.py
+    ж       ж   ж   formatting.py
+    ж       ж   ж   globals.py
+    ж       ж   ж   parser.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   shell_completion.py
+    ж       ж   ж   termui.py
+    ж       ж   ж   testing.py
+    ж       ж   ж   types.py
+    ж       ж   ж   utils.py
+    ж       ж   ж   _compat.py
+    ж       ж   ж   _termui_impl.py
+    ж       ж   ж   _textwrap.py
+    ж       ж   ж   _winconsole.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           core.cpython-313.pyc
+    ж       ж           decorators.cpython-313.pyc
+    ж       ж           exceptions.cpython-313.pyc
+    ж       ж           formatting.cpython-313.pyc
+    ж       ж           globals.cpython-313.pyc
+    ж       ж           parser.cpython-313.pyc
+    ж       ж           shell_completion.cpython-313.pyc
+    ж       ж           termui.cpython-313.pyc
+    ж       ж           testing.cpython-313.pyc
+    ж       ж           types.cpython-313.pyc
+    ж       ж           utils.cpython-313.pyc
+    ж       ж           _compat.cpython-313.pyc
+    ж       ж           _termui_impl.cpython-313.pyc
+    ж       ж           _textwrap.cpython-313.pyc
+    ж       ж           _winconsole.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---click-8.1.8.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE.txt
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---colorama
+    ж       ж   ж   ansi.py
+    ж       ж   ж   ansitowin32.py
+    ж       ж   ж   initialise.py
+    ж       ж   ж   win32.py
+    ж       ж   ж   winterm.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   +---tests
+    ж       ж   ж   ж   ansitowin32_test.py
+    ж       ж   ж   ж   ansi_test.py
+    ж       ж   ж   ж   initialise_test.py
+    ж       ж   ж   ж   isatty_test.py
+    ж       ж   ж   ж   utils.py
+    ж       ж   ж   ж   winterm_test.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           ansitowin32_test.cpython-313.pyc
+    ж       ж   ж           ansi_test.cpython-313.pyc
+    ж       ж   ж           initialise_test.cpython-313.pyc
+    ж       ж   ж           isatty_test.cpython-313.pyc
+    ж       ж   ж           utils.cpython-313.pyc
+    ж       ж   ж           winterm_test.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           ansi.cpython-313.pyc
+    ж       ж           ansitowin32.cpython-313.pyc
+    ж       ж           initialise.cpython-313.pyc
+    ж       ж           win32.cpython-313.pyc
+    ж       ж           winterm.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---colorama-0.4.6.dist-info
+    ж       ж   ж   INSTALLER
+    ж       ж   ж   METADATA
+    ж       ж   ж   RECORD
+    ж       ж   ж   WHEEL
+    ж       ж   ж   
+    ж       ж   L---licenses
+    ж       ж           LICENSE.txt
+    ж       ж           
+    ж       +---dotenv
+    ж       ж   ж   cli.py
+    ж       ж   ж   ipython.py
+    ж       ж   ж   main.py
+    ж       ж   ж   parser.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   variables.py
+    ж       ж   ж   version.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   __main__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           cli.cpython-313.pyc
+    ж       ж           ipython.cpython-313.pyc
+    ж       ж           main.cpython-313.pyc
+    ж       ж           parser.cpython-313.pyc
+    ж       ж           variables.cpython-313.pyc
+    ж       ж           version.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           __main__.cpython-313.pyc
+    ж       ж           
+    ж       +---flask
+    ж       ж   ж   app.py
+    ж       ж   ж   blueprints.py
+    ж       ж   ж   cli.py
+    ж       ж   ж   config.py
+    ж       ж   ж   ctx.py
+    ж       ж   ж   debughelpers.py
+    ж       ж   ж   globals.py
+    ж       ж   ж   helpers.py
+    ж       ж   ж   logging.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   sessions.py
+    ж       ж   ж   signals.py
+    ж       ж   ж   templating.py
+    ж       ж   ж   testing.py
+    ж       ж   ж   typing.py
+    ж       ж   ж   views.py
+    ж       ж   ж   wrappers.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   __main__.py
+    ж       ж   ж   
+    ж       ж   +---json
+    ж       ж   ж   ж   provider.py
+    ж       ж   ж   ж   tag.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           provider.cpython-313.pyc
+    ж       ж   ж           tag.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---sansio
+    ж       ж   ж   ж   app.py
+    ж       ж   ж   ж   blueprints.py
+    ж       ж   ж   ж   README.md
+    ж       ж   ж   ж   scaffold.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           app.cpython-313.pyc
+    ж       ж   ж           blueprints.cpython-313.pyc
+    ж       ж   ж           scaffold.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           app.cpython-313.pyc
+    ж       ж           blueprints.cpython-313.pyc
+    ж       ж           cli.cpython-313.pyc
+    ж       ж           config.cpython-313.pyc
+    ж       ж           ctx.cpython-313.pyc
+    ж       ж           debughelpers.cpython-313.pyc
+    ж       ж           globals.cpython-313.pyc
+    ж       ж           helpers.cpython-313.pyc
+    ж       ж           logging.cpython-313.pyc
+    ж       ж           sessions.cpython-313.pyc
+    ж       ж           signals.cpython-313.pyc
+    ж       ж           templating.cpython-313.pyc
+    ж       ж           testing.cpython-313.pyc
+    ж       ж           typing.cpython-313.pyc
+    ж       ж           views.cpython-313.pyc
+    ж       ж           wrappers.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           __main__.cpython-313.pyc
+    ж       ж           
+    ж       +---flask-3.1.0.dist-info
+    ж       ж       entry_points.txt
+    ж       ж       INSTALLER
+    ж       ж       LICENSE.txt
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       REQUESTED
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---h11
+    ж       ж   ж   py.typed
+    ж       ж   ж   _abnf.py
+    ж       ж   ж   _connection.py
+    ж       ж   ж   _events.py
+    ж       ж   ж   _headers.py
+    ж       ж   ж   _readers.py
+    ж       ж   ж   _receivebuffer.py
+    ж       ж   ж   _state.py
+    ж       ж   ж   _util.py
+    ж       ж   ж   _version.py
+    ж       ж   ж   _writers.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   +---tests
+    ж       ж   ж   ж   helpers.py
+    ж       ж   ж   ж   test_against_stdlib_http.py
+    ж       ж   ж   ж   test_connection.py
+    ж       ж   ж   ж   test_events.py
+    ж       ж   ж   ж   test_headers.py
+    ж       ж   ж   ж   test_helpers.py
+    ж       ж   ж   ж   test_io.py
+    ж       ж   ж   ж   test_receivebuffer.py
+    ж       ж   ж   ж   test_state.py
+    ж       ж   ж   ж   test_util.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   +---data
+    ж       ж   ж   ж       test-file
+    ж       ж   ж   ж       
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           helpers.cpython-313.pyc
+    ж       ж   ж           test_against_stdlib_http.cpython-313.pyc
+    ж       ж   ж           test_connection.cpython-313.pyc
+    ж       ж   ж           test_events.cpython-313.pyc
+    ж       ж   ж           test_headers.cpython-313.pyc
+    ж       ж   ж           test_helpers.cpython-313.pyc
+    ж       ж   ж           test_io.cpython-313.pyc
+    ж       ж   ж           test_receivebuffer.cpython-313.pyc
+    ж       ж   ж           test_state.cpython-313.pyc
+    ж       ж   ж           test_util.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           _abnf.cpython-313.pyc
+    ж       ж           _connection.cpython-313.pyc
+    ж       ж           _events.cpython-313.pyc
+    ж       ж           _headers.cpython-313.pyc
+    ж       ж           _readers.cpython-313.pyc
+    ж       ж           _receivebuffer.cpython-313.pyc
+    ж       ж           _state.cpython-313.pyc
+    ж       ж           _util.cpython-313.pyc
+    ж       ж           _version.cpython-313.pyc
+    ж       ж           _writers.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---h11-0.14.0.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE.txt
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       top_level.txt
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---httpcore
+    ж       ж   ж   py.typed
+    ж       ж   ж   _api.py
+    ж       ж   ж   _exceptions.py
+    ж       ж   ж   _models.py
+    ж       ж   ж   _ssl.py
+    ж       ж   ж   _synchronization.py
+    ж       ж   ж   _trace.py
+    ж       ж   ж   _utils.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   +---_async
+    ж       ж   ж   ж   connection.py
+    ж       ж   ж   ж   connection_pool.py
+    ж       ж   ж   ж   http11.py
+    ж       ж   ж   ж   http2.py
+    ж       ж   ж   ж   http_proxy.py
+    ж       ж   ж   ж   interfaces.py
+    ж       ж   ж   ж   socks_proxy.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           connection.cpython-313.pyc
+    ж       ж   ж           connection_pool.cpython-313.pyc
+    ж       ж   ж           http11.cpython-313.pyc
+    ж       ж   ж           http2.cpython-313.pyc
+    ж       ж   ж           http_proxy.cpython-313.pyc
+    ж       ж   ж           interfaces.cpython-313.pyc
+    ж       ж   ж           socks_proxy.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_backends
+    ж       ж   ж   ж   anyio.py
+    ж       ж   ж   ж   auto.py
+    ж       ж   ж   ж   base.py
+    ж       ж   ж   ж   mock.py
+    ж       ж   ж   ж   sync.py
+    ж       ж   ж   ж   trio.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           anyio.cpython-313.pyc
+    ж       ж   ж           auto.cpython-313.pyc
+    ж       ж   ж           base.cpython-313.pyc
+    ж       ж   ж           mock.cpython-313.pyc
+    ж       ж   ж           sync.cpython-313.pyc
+    ж       ж   ж           trio.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_sync
+    ж       ж   ж   ж   connection.py
+    ж       ж   ж   ж   connection_pool.py
+    ж       ж   ж   ж   http11.py
+    ж       ж   ж   ж   http2.py
+    ж       ж   ж   ж   http_proxy.py
+    ж       ж   ж   ж   interfaces.py
+    ж       ж   ж   ж   socks_proxy.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           connection.cpython-313.pyc
+    ж       ж   ж           connection_pool.cpython-313.pyc
+    ж       ж   ж           http11.cpython-313.pyc
+    ж       ж   ж           http2.cpython-313.pyc
+    ж       ж   ж           http_proxy.cpython-313.pyc
+    ж       ж   ж           interfaces.cpython-313.pyc
+    ж       ж   ж           socks_proxy.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           _api.cpython-313.pyc
+    ж       ж           _exceptions.cpython-313.pyc
+    ж       ж           _models.cpython-313.pyc
+    ж       ж           _ssl.cpython-313.pyc
+    ж       ж           _synchronization.cpython-313.pyc
+    ж       ж           _trace.cpython-313.pyc
+    ж       ж           _utils.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---httpcore-1.0.8.dist-info
+    ж       ж   ж   INSTALLER
+    ж       ж   ж   METADATA
+    ж       ж   ж   RECORD
+    ж       ж   ж   WHEEL
+    ж       ж   ж   
+    ж       ж   L---licenses
+    ж       ж           LICENSE.md
+    ж       ж           
+    ж       +---httpx
+    ж       ж   ж   py.typed
+    ж       ж   ж   _api.py
+    ж       ж   ж   _auth.py
+    ж       ж   ж   _client.py
+    ж       ж   ж   _config.py
+    ж       ж   ж   _content.py
+    ж       ж   ж   _decoders.py
+    ж       ж   ж   _exceptions.py
+    ж       ж   ж   _main.py
+    ж       ж   ж   _models.py
+    ж       ж   ж   _multipart.py
+    ж       ж   ж   _status_codes.py
+    ж       ж   ж   _types.py
+    ж       ж   ж   _urlparse.py
+    ж       ж   ж   _urls.py
+    ж       ж   ж   _utils.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   __version__.py
+    ж       ж   ж   
+    ж       ж   +---_transports
+    ж       ж   ж   ж   asgi.py
+    ж       ж   ж   ж   base.py
+    ж       ж   ж   ж   default.py
+    ж       ж   ж   ж   mock.py
+    ж       ж   ж   ж   wsgi.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           asgi.cpython-313.pyc
+    ж       ж   ж           base.cpython-313.pyc
+    ж       ж   ж           default.cpython-313.pyc
+    ж       ж   ж           mock.cpython-313.pyc
+    ж       ж   ж           wsgi.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           _api.cpython-313.pyc
+    ж       ж           _auth.cpython-313.pyc
+    ж       ж           _client.cpython-313.pyc
+    ж       ж           _config.cpython-313.pyc
+    ж       ж           _content.cpython-313.pyc
+    ж       ж           _decoders.cpython-313.pyc
+    ж       ж           _exceptions.cpython-313.pyc
+    ж       ж           _main.cpython-313.pyc
+    ж       ж           _models.cpython-313.pyc
+    ж       ж           _multipart.cpython-313.pyc
+    ж       ж           _status_codes.cpython-313.pyc
+    ж       ж           _types.cpython-313.pyc
+    ж       ж           _urlparse.cpython-313.pyc
+    ж       ж           _urls.cpython-313.pyc
+    ж       ж           _utils.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           __version__.cpython-313.pyc
+    ж       ж           
+    ж       +---httpx-0.28.1.dist-info
+    ж       ж   ж   entry_points.txt
+    ж       ж   ж   INSTALLER
+    ж       ж   ж   METADATA
+    ж       ж   ж   RECORD
+    ж       ж   ж   WHEEL
+    ж       ж   ж   
+    ж       ж   L---licenses
+    ж       ж           LICENSE.md
+    ж       ж           
+    ж       +---idna
+    ж       ж   ж   codec.py
+    ж       ж   ж   compat.py
+    ж       ж   ж   core.py
+    ж       ж   ж   idnadata.py
+    ж       ж   ж   intranges.py
+    ж       ж   ж   package_data.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   uts46data.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           codec.cpython-313.pyc
+    ж       ж           compat.cpython-313.pyc
+    ж       ж           core.cpython-313.pyc
+    ж       ж           idnadata.cpython-313.pyc
+    ж       ж           intranges.cpython-313.pyc
+    ж       ж           package_data.cpython-313.pyc
+    ж       ж           uts46data.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---idna-3.10.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE.md
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---itsdangerous
+    ж       ж   ж   encoding.py
+    ж       ж   ж   exc.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   serializer.py
+    ж       ж   ж   signer.py
+    ж       ж   ж   timed.py
+    ж       ж   ж   url_safe.py
+    ж       ж   ж   _json.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           encoding.cpython-313.pyc
+    ж       ж           exc.cpython-313.pyc
+    ж       ж           serializer.cpython-313.pyc
+    ж       ж           signer.cpython-313.pyc
+    ж       ж           timed.cpython-313.pyc
+    ж       ж           url_safe.cpython-313.pyc
+    ж       ж           _json.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---itsdangerous-2.2.0.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE.txt
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---jinja2
+    ж       ж   ж   async_utils.py
+    ж       ж   ж   bccache.py
+    ж       ж   ж   compiler.py
+    ж       ж   ж   constants.py
+    ж       ж   ж   debug.py
+    ж       ж   ж   defaults.py
+    ж       ж   ж   environment.py
+    ж       ж   ж   exceptions.py
+    ж       ж   ж   ext.py
+    ж       ж   ж   filters.py
+    ж       ж   ж   idtracking.py
+    ж       ж   ж   lexer.py
+    ж       ж   ж   loaders.py
+    ж       ж   ж   meta.py
+    ж       ж   ж   nativetypes.py
+    ж       ж   ж   nodes.py
+    ж       ж   ж   optimizer.py
+    ж       ж   ж   parser.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   runtime.py
+    ж       ж   ж   sandbox.py
+    ж       ж   ж   tests.py
+    ж       ж   ж   utils.py
+    ж       ж   ж   visitor.py
+    ж       ж   ж   _identifier.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           async_utils.cpython-313.pyc
+    ж       ж           bccache.cpython-313.pyc
+    ж       ж           compiler.cpython-313.pyc
+    ж       ж           constants.cpython-313.pyc
+    ж       ж           debug.cpython-313.pyc
+    ж       ж           defaults.cpython-313.pyc
+    ж       ж           environment.cpython-313.pyc
+    ж       ж           exceptions.cpython-313.pyc
+    ж       ж           ext.cpython-313.pyc
+    ж       ж           filters.cpython-313.pyc
+    ж       ж           idtracking.cpython-313.pyc
+    ж       ж           lexer.cpython-313.pyc
+    ж       ж           loaders.cpython-313.pyc
+    ж       ж           meta.cpython-313.pyc
+    ж       ж           nativetypes.cpython-313.pyc
+    ж       ж           nodes.cpython-313.pyc
+    ж       ж           optimizer.cpython-313.pyc
+    ж       ж           parser.cpython-313.pyc
+    ж       ж           runtime.cpython-313.pyc
+    ж       ж           sandbox.cpython-313.pyc
+    ж       ж           tests.cpython-313.pyc
+    ж       ж           utils.cpython-313.pyc
+    ж       ж           visitor.cpython-313.pyc
+    ж       ж           _identifier.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---jinja2-3.1.6.dist-info
+    ж       ж   ж   entry_points.txt
+    ж       ж   ж   INSTALLER
+    ж       ж   ж   METADATA
+    ж       ж   ж   RECORD
+    ж       ж   ж   WHEEL
+    ж       ж   ж   
+    ж       ж   L---licenses
+    ж       ж           LICENSE.txt
+    ж       ж           
+    ж       +---markupsafe
+    ж       ж   ж   py.typed
+    ж       ж   ж   _native.py
+    ж       ж   ж   _speedups.c
+    ж       ж   ж   _speedups.cp313-win_amd64.pyd
+    ж       ж   ж   _speedups.pyi
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           _native.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---MarkupSafe-3.0.2.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE.txt
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       top_level.txt
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---pip
+    ж       ж   ж   py.typed
+    ж       ж   ж   __init__.py
+    ж       ж   ж   __main__.py
+    ж       ж   ж   __pip-runner__.py
+    ж       ж   ж   
+    ж       ж   +---_internal
+    ж       ж   ж   ж   build_env.py
+    ж       ж   ж   ж   cache.py
+    ж       ж   ж   ж   configuration.py
+    ж       ж   ж   ж   exceptions.py
+    ж       ж   ж   ж   main.py
+    ж       ж   ж   ж   pyproject.py
+    ж       ж   ж   ж   self_outdated_check.py
+    ж       ж   ж   ж   wheel_builder.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   +---cli
+    ж       ж   ж   ж   ж   autocompletion.py
+    ж       ж   ж   ж   ж   base_command.py
+    ж       ж   ж   ж   ж   cmdoptions.py
+    ж       ж   ж   ж   ж   command_context.py
+    ж       ж   ж   ж   ж   index_command.py
+    ж       ж   ж   ж   ж   main.py
+    ж       ж   ж   ж   ж   main_parser.py
+    ж       ж   ж   ж   ж   parser.py
+    ж       ж   ж   ж   ж   progress_bars.py
+    ж       ж   ж   ж   ж   req_command.py
+    ж       ж   ж   ж   ж   spinners.py
+    ж       ж   ж   ж   ж   status_codes.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           autocompletion.cpython-313.pyc
+    ж       ж   ж   ж           base_command.cpython-313.pyc
+    ж       ж   ж   ж           cmdoptions.cpython-313.pyc
+    ж       ж   ж   ж           command_context.cpython-313.pyc
+    ж       ж   ж   ж           index_command.cpython-313.pyc
+    ж       ж   ж   ж           main.cpython-313.pyc
+    ж       ж   ж   ж           main_parser.cpython-313.pyc
+    ж       ж   ж   ж           parser.cpython-313.pyc
+    ж       ж   ж   ж           progress_bars.cpython-313.pyc
+    ж       ж   ж   ж           req_command.cpython-313.pyc
+    ж       ж   ж   ж           spinners.cpython-313.pyc
+    ж       ж   ж   ж           status_codes.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---commands
+    ж       ж   ж   ж   ж   cache.py
+    ж       ж   ж   ж   ж   check.py
+    ж       ж   ж   ж   ж   completion.py
+    ж       ж   ж   ж   ж   configuration.py
+    ж       ж   ж   ж   ж   debug.py
+    ж       ж   ж   ж   ж   download.py
+    ж       ж   ж   ж   ж   freeze.py
+    ж       ж   ж   ж   ж   hash.py
+    ж       ж   ж   ж   ж   help.py
+    ж       ж   ж   ж   ж   index.py
+    ж       ж   ж   ж   ж   inspect.py
+    ж       ж   ж   ж   ж   install.py
+    ж       ж   ж   ж   ж   list.py
+    ж       ж   ж   ж   ж   search.py
+    ж       ж   ж   ж   ж   show.py
+    ж       ж   ж   ж   ж   uninstall.py
+    ж       ж   ж   ж   ж   wheel.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           cache.cpython-313.pyc
+    ж       ж   ж   ж           check.cpython-313.pyc
+    ж       ж   ж   ж           completion.cpython-313.pyc
+    ж       ж   ж   ж           configuration.cpython-313.pyc
+    ж       ж   ж   ж           debug.cpython-313.pyc
+    ж       ж   ж   ж           download.cpython-313.pyc
+    ж       ж   ж   ж           freeze.cpython-313.pyc
+    ж       ж   ж   ж           hash.cpython-313.pyc
+    ж       ж   ж   ж           help.cpython-313.pyc
+    ж       ж   ж   ж           index.cpython-313.pyc
+    ж       ж   ж   ж           inspect.cpython-313.pyc
+    ж       ж   ж   ж           install.cpython-313.pyc
+    ж       ж   ж   ж           list.cpython-313.pyc
+    ж       ж   ж   ж           search.cpython-313.pyc
+    ж       ж   ж   ж           show.cpython-313.pyc
+    ж       ж   ж   ж           uninstall.cpython-313.pyc
+    ж       ж   ж   ж           wheel.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---distributions
+    ж       ж   ж   ж   ж   base.py
+    ж       ж   ж   ж   ж   installed.py
+    ж       ж   ж   ж   ж   sdist.py
+    ж       ж   ж   ж   ж   wheel.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           base.cpython-313.pyc
+    ж       ж   ж   ж           installed.cpython-313.pyc
+    ж       ж   ж   ж           sdist.cpython-313.pyc
+    ж       ж   ж   ж           wheel.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---index
+    ж       ж   ж   ж   ж   collector.py
+    ж       ж   ж   ж   ж   package_finder.py
+    ж       ж   ж   ж   ж   sources.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           collector.cpython-313.pyc
+    ж       ж   ж   ж           package_finder.cpython-313.pyc
+    ж       ж   ж   ж           sources.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---locations
+    ж       ж   ж   ж   ж   base.py
+    ж       ж   ж   ж   ж   _distutils.py
+    ж       ж   ж   ж   ж   _sysconfig.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           base.cpython-313.pyc
+    ж       ж   ж   ж           _distutils.cpython-313.pyc
+    ж       ж   ж   ж           _sysconfig.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---metadata
+    ж       ж   ж   ж   ж   base.py
+    ж       ж   ж   ж   ж   pkg_resources.py
+    ж       ж   ж   ж   ж   _json.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---importlib
+    ж       ж   ж   ж   ж   ж   _compat.py
+    ж       ж   ж   ж   ж   ж   _dists.py
+    ж       ж   ж   ж   ж   ж   _envs.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           _compat.cpython-313.pyc
+    ж       ж   ж   ж   ж           _dists.cpython-313.pyc
+    ж       ж   ж   ж   ж           _envs.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           base.cpython-313.pyc
+    ж       ж   ж   ж           pkg_resources.cpython-313.pyc
+    ж       ж   ж   ж           _json.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---models
+    ж       ж   ж   ж   ж   candidate.py
+    ж       ж   ж   ж   ж   direct_url.py
+    ж       ж   ж   ж   ж   format_control.py
+    ж       ж   ж   ж   ж   index.py
+    ж       ж   ж   ж   ж   installation_report.py
+    ж       ж   ж   ж   ж   link.py
+    ж       ж   ж   ж   ж   scheme.py
+    ж       ж   ж   ж   ж   search_scope.py
+    ж       ж   ж   ж   ж   selection_prefs.py
+    ж       ж   ж   ж   ж   target_python.py
+    ж       ж   ж   ж   ж   wheel.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           candidate.cpython-313.pyc
+    ж       ж   ж   ж           direct_url.cpython-313.pyc
+    ж       ж   ж   ж           format_control.cpython-313.pyc
+    ж       ж   ж   ж           index.cpython-313.pyc
+    ж       ж   ж   ж           installation_report.cpython-313.pyc
+    ж       ж   ж   ж           link.cpython-313.pyc
+    ж       ж   ж   ж           scheme.cpython-313.pyc
+    ж       ж   ж   ж           search_scope.cpython-313.pyc
+    ж       ж   ж   ж           selection_prefs.cpython-313.pyc
+    ж       ж   ж   ж           target_python.cpython-313.pyc
+    ж       ж   ж   ж           wheel.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---network
+    ж       ж   ж   ж   ж   auth.py
+    ж       ж   ж   ж   ж   cache.py
+    ж       ж   ж   ж   ж   download.py
+    ж       ж   ж   ж   ж   lazy_wheel.py
+    ж       ж   ж   ж   ж   session.py
+    ж       ж   ж   ж   ж   utils.py
+    ж       ж   ж   ж   ж   xmlrpc.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           auth.cpython-313.pyc
+    ж       ж   ж   ж           cache.cpython-313.pyc
+    ж       ж   ж   ж           download.cpython-313.pyc
+    ж       ж   ж   ж           lazy_wheel.cpython-313.pyc
+    ж       ж   ж   ж           session.cpython-313.pyc
+    ж       ж   ж   ж           utils.cpython-313.pyc
+    ж       ж   ж   ж           xmlrpc.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---operations
+    ж       ж   ж   ж   ж   check.py
+    ж       ж   ж   ж   ж   freeze.py
+    ж       ж   ж   ж   ж   prepare.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---build
+    ж       ж   ж   ж   ж   ж   build_tracker.py
+    ж       ж   ж   ж   ж   ж   metadata.py
+    ж       ж   ж   ж   ж   ж   metadata_editable.py
+    ж       ж   ж   ж   ж   ж   metadata_legacy.py
+    ж       ж   ж   ж   ж   ж   wheel.py
+    ж       ж   ж   ж   ж   ж   wheel_editable.py
+    ж       ж   ж   ж   ж   ж   wheel_legacy.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           build_tracker.cpython-313.pyc
+    ж       ж   ж   ж   ж           metadata.cpython-313.pyc
+    ж       ж   ж   ж   ж           metadata_editable.cpython-313.pyc
+    ж       ж   ж   ж   ж           metadata_legacy.cpython-313.pyc
+    ж       ж   ж   ж   ж           wheel.cpython-313.pyc
+    ж       ж   ж   ж   ж           wheel_editable.cpython-313.pyc
+    ж       ж   ж   ж   ж           wheel_legacy.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   +---install
+    ж       ж   ж   ж   ж   ж   editable_legacy.py
+    ж       ж   ж   ж   ж   ж   wheel.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           editable_legacy.cpython-313.pyc
+    ж       ж   ж   ж   ж           wheel.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           check.cpython-313.pyc
+    ж       ж   ж   ж           freeze.cpython-313.pyc
+    ж       ж   ж   ж           prepare.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---req
+    ж       ж   ж   ж   ж   constructors.py
+    ж       ж   ж   ж   ж   req_file.py
+    ж       ж   ж   ж   ж   req_install.py
+    ж       ж   ж   ж   ж   req_set.py
+    ж       ж   ж   ж   ж   req_uninstall.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           constructors.cpython-313.pyc
+    ж       ж   ж   ж           req_file.cpython-313.pyc
+    ж       ж   ж   ж           req_install.cpython-313.pyc
+    ж       ж   ж   ж           req_set.cpython-313.pyc
+    ж       ж   ж   ж           req_uninstall.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---resolution
+    ж       ж   ж   ж   ж   base.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---legacy
+    ж       ж   ж   ж   ж   ж   resolver.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           resolver.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   +---resolvelib
+    ж       ж   ж   ж   ж   ж   base.py
+    ж       ж   ж   ж   ж   ж   candidates.py
+    ж       ж   ж   ж   ж   ж   factory.py
+    ж       ж   ж   ж   ж   ж   found_candidates.py
+    ж       ж   ж   ж   ж   ж   provider.py
+    ж       ж   ж   ж   ж   ж   reporter.py
+    ж       ж   ж   ж   ж   ж   requirements.py
+    ж       ж   ж   ж   ж   ж   resolver.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           base.cpython-313.pyc
+    ж       ж   ж   ж   ж           candidates.cpython-313.pyc
+    ж       ж   ж   ж   ж           factory.cpython-313.pyc
+    ж       ж   ж   ж   ж           found_candidates.cpython-313.pyc
+    ж       ж   ж   ж   ж           provider.cpython-313.pyc
+    ж       ж   ж   ж   ж           reporter.cpython-313.pyc
+    ж       ж   ж   ж   ж           requirements.cpython-313.pyc
+    ж       ж   ж   ж   ж           resolver.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           base.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---utils
+    ж       ж   ж   ж   ж   appdirs.py
+    ж       ж   ж   ж   ж   compat.py
+    ж       ж   ж   ж   ж   compatibility_tags.py
+    ж       ж   ж   ж   ж   datetime.py
+    ж       ж   ж   ж   ж   deprecation.py
+    ж       ж   ж   ж   ж   direct_url_helpers.py
+    ж       ж   ж   ж   ж   egg_link.py
+    ж       ж   ж   ж   ж   entrypoints.py
+    ж       ж   ж   ж   ж   filesystem.py
+    ж       ж   ж   ж   ж   filetypes.py
+    ж       ж   ж   ж   ж   glibc.py
+    ж       ж   ж   ж   ж   hashes.py
+    ж       ж   ж   ж   ж   logging.py
+    ж       ж   ж   ж   ж   misc.py
+    ж       ж   ж   ж   ж   packaging.py
+    ж       ж   ж   ж   ж   retry.py
+    ж       ж   ж   ж   ж   setuptools_build.py
+    ж       ж   ж   ж   ж   subprocess.py
+    ж       ж   ж   ж   ж   temp_dir.py
+    ж       ж   ж   ж   ж   unpacking.py
+    ж       ж   ж   ж   ж   urls.py
+    ж       ж   ж   ж   ж   virtualenv.py
+    ж       ж   ж   ж   ж   wheel.py
+    ж       ж   ж   ж   ж   _jaraco_text.py
+    ж       ж   ж   ж   ж   _log.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           appdirs.cpython-313.pyc
+    ж       ж   ж   ж           compat.cpython-313.pyc
+    ж       ж   ж   ж           compatibility_tags.cpython-313.pyc
+    ж       ж   ж   ж           datetime.cpython-313.pyc
+    ж       ж   ж   ж           deprecation.cpython-313.pyc
+    ж       ж   ж   ж           direct_url_helpers.cpython-313.pyc
+    ж       ж   ж   ж           egg_link.cpython-313.pyc
+    ж       ж   ж   ж           entrypoints.cpython-313.pyc
+    ж       ж   ж   ж           filesystem.cpython-313.pyc
+    ж       ж   ж   ж           filetypes.cpython-313.pyc
+    ж       ж   ж   ж           glibc.cpython-313.pyc
+    ж       ж   ж   ж           hashes.cpython-313.pyc
+    ж       ж   ж   ж           logging.cpython-313.pyc
+    ж       ж   ж   ж           misc.cpython-313.pyc
+    ж       ж   ж   ж           packaging.cpython-313.pyc
+    ж       ж   ж   ж           retry.cpython-313.pyc
+    ж       ж   ж   ж           setuptools_build.cpython-313.pyc
+    ж       ж   ж   ж           subprocess.cpython-313.pyc
+    ж       ж   ж   ж           temp_dir.cpython-313.pyc
+    ж       ж   ж   ж           unpacking.cpython-313.pyc
+    ж       ж   ж   ж           urls.cpython-313.pyc
+    ж       ж   ж   ж           virtualenv.cpython-313.pyc
+    ж       ж   ж   ж           wheel.cpython-313.pyc
+    ж       ж   ж   ж           _jaraco_text.cpython-313.pyc
+    ж       ж   ж   ж           _log.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---vcs
+    ж       ж   ж   ж   ж   bazaar.py
+    ж       ж   ж   ж   ж   git.py
+    ж       ж   ж   ж   ж   mercurial.py
+    ж       ж   ж   ж   ж   subversion.py
+    ж       ж   ж   ж   ж   versioncontrol.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           bazaar.cpython-313.pyc
+    ж       ж   ж   ж           git.cpython-313.pyc
+    ж       ж   ж   ж           mercurial.cpython-313.pyc
+    ж       ж   ж   ж           subversion.cpython-313.pyc
+    ж       ж   ж   ж           versioncontrol.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           build_env.cpython-313.pyc
+    ж       ж   ж           cache.cpython-313.pyc
+    ж       ж   ж           configuration.cpython-313.pyc
+    ж       ж   ж           exceptions.cpython-313.pyc
+    ж       ж   ж           main.cpython-313.pyc
+    ж       ж   ж           pyproject.cpython-313.pyc
+    ж       ж   ж           self_outdated_check.cpython-313.pyc
+    ж       ж   ж           wheel_builder.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_vendor
+    ж       ж   ж   ж   typing_extensions.py
+    ж       ж   ж   ж   vendor.txt
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   +---cachecontrol
+    ж       ж   ж   ж   ж   adapter.py
+    ж       ж   ж   ж   ж   cache.py
+    ж       ж   ж   ж   ж   controller.py
+    ж       ж   ж   ж   ж   filewrapper.py
+    ж       ж   ж   ж   ж   heuristics.py
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   serialize.py
+    ж       ж   ж   ж   ж   wrapper.py
+    ж       ж   ж   ж   ж   _cmd.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---caches
+    ж       ж   ж   ж   ж   ж   file_cache.py
+    ж       ж   ж   ж   ж   ж   redis_cache.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           file_cache.cpython-313.pyc
+    ж       ж   ж   ж   ж           redis_cache.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           adapter.cpython-313.pyc
+    ж       ж   ж   ж           cache.cpython-313.pyc
+    ж       ж   ж   ж           controller.cpython-313.pyc
+    ж       ж   ж   ж           filewrapper.cpython-313.pyc
+    ж       ж   ж   ж           heuristics.cpython-313.pyc
+    ж       ж   ж   ж           serialize.cpython-313.pyc
+    ж       ж   ж   ж           wrapper.cpython-313.pyc
+    ж       ж   ж   ж           _cmd.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---certifi
+    ж       ж   ж   ж   ж   cacert.pem
+    ж       ж   ж   ж   ж   core.py
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   __main__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           core.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           __main__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---distlib
+    ж       ж   ж   ж   ж   compat.py
+    ж       ж   ж   ж   ж   database.py
+    ж       ж   ж   ж   ж   index.py
+    ж       ж   ж   ж   ж   locators.py
+    ж       ж   ж   ж   ж   manifest.py
+    ж       ж   ж   ж   ж   markers.py
+    ж       ж   ж   ж   ж   metadata.py
+    ж       ж   ж   ж   ж   resources.py
+    ж       ж   ж   ж   ж   scripts.py
+    ж       ж   ж   ж   ж   t32.exe
+    ж       ж   ж   ж   ж   t64-arm.exe
+    ж       ж   ж   ж   ж   t64.exe
+    ж       ж   ж   ж   ж   util.py
+    ж       ж   ж   ж   ж   version.py
+    ж       ж   ж   ж   ж   w32.exe
+    ж       ж   ж   ж   ж   w64-arm.exe
+    ж       ж   ж   ж   ж   w64.exe
+    ж       ж   ж   ж   ж   wheel.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           compat.cpython-313.pyc
+    ж       ж   ж   ж           database.cpython-313.pyc
+    ж       ж   ж   ж           index.cpython-313.pyc
+    ж       ж   ж   ж           locators.cpython-313.pyc
+    ж       ж   ж   ж           manifest.cpython-313.pyc
+    ж       ж   ж   ж           markers.cpython-313.pyc
+    ж       ж   ж   ж           metadata.cpython-313.pyc
+    ж       ж   ж   ж           resources.cpython-313.pyc
+    ж       ж   ж   ж           scripts.cpython-313.pyc
+    ж       ж   ж   ж           util.cpython-313.pyc
+    ж       ж   ж   ж           version.cpython-313.pyc
+    ж       ж   ж   ж           wheel.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---distro
+    ж       ж   ж   ж   ж   distro.py
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   __main__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           distro.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           __main__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---idna
+    ж       ж   ж   ж   ж   codec.py
+    ж       ж   ж   ж   ж   compat.py
+    ж       ж   ж   ж   ж   core.py
+    ж       ж   ж   ж   ж   idnadata.py
+    ж       ж   ж   ж   ж   intranges.py
+    ж       ж   ж   ж   ж   package_data.py
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   uts46data.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           codec.cpython-313.pyc
+    ж       ж   ж   ж           compat.cpython-313.pyc
+    ж       ж   ж   ж           core.cpython-313.pyc
+    ж       ж   ж   ж           idnadata.cpython-313.pyc
+    ж       ж   ж   ж           intranges.cpython-313.pyc
+    ж       ж   ж   ж           package_data.cpython-313.pyc
+    ж       ж   ж   ж           uts46data.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---msgpack
+    ж       ж   ж   ж   ж   exceptions.py
+    ж       ж   ж   ж   ж   ext.py
+    ж       ж   ж   ж   ж   fallback.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           exceptions.cpython-313.pyc
+    ж       ж   ж   ж           ext.cpython-313.pyc
+    ж       ж   ж   ж           fallback.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---packaging
+    ж       ж   ж   ж   ж   markers.py
+    ж       ж   ж   ж   ж   metadata.py
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   requirements.py
+    ж       ж   ж   ж   ж   specifiers.py
+    ж       ж   ж   ж   ж   tags.py
+    ж       ж   ж   ж   ж   utils.py
+    ж       ж   ж   ж   ж   version.py
+    ж       ж   ж   ж   ж   _elffile.py
+    ж       ж   ж   ж   ж   _manylinux.py
+    ж       ж   ж   ж   ж   _musllinux.py
+    ж       ж   ж   ж   ж   _parser.py
+    ж       ж   ж   ж   ж   _structures.py
+    ж       ж   ж   ж   ж   _tokenizer.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---licenses
+    ж       ж   ж   ж   ж   ж   _spdx.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           _spdx.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           markers.cpython-313.pyc
+    ж       ж   ж   ж           metadata.cpython-313.pyc
+    ж       ж   ж   ж           requirements.cpython-313.pyc
+    ж       ж   ж   ж           specifiers.cpython-313.pyc
+    ж       ж   ж   ж           tags.cpython-313.pyc
+    ж       ж   ж   ж           utils.cpython-313.pyc
+    ж       ж   ж   ж           version.cpython-313.pyc
+    ж       ж   ж   ж           _elffile.cpython-313.pyc
+    ж       ж   ж   ж           _manylinux.cpython-313.pyc
+    ж       ж   ж   ж           _musllinux.cpython-313.pyc
+    ж       ж   ж   ж           _parser.cpython-313.pyc
+    ж       ж   ж   ж           _structures.cpython-313.pyc
+    ж       ж   ж   ж           _tokenizer.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---pkg_resources
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---platformdirs
+    ж       ж   ж   ж   ж   android.py
+    ж       ж   ж   ж   ж   api.py
+    ж       ж   ж   ж   ж   macos.py
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   unix.py
+    ж       ж   ж   ж   ж   version.py
+    ж       ж   ж   ж   ж   windows.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   __main__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           android.cpython-313.pyc
+    ж       ж   ж   ж           api.cpython-313.pyc
+    ж       ж   ж   ж           macos.cpython-313.pyc
+    ж       ж   ж   ж           unix.cpython-313.pyc
+    ж       ж   ж   ж           version.cpython-313.pyc
+    ж       ж   ж   ж           windows.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           __main__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---pygments
+    ж       ж   ж   ж   ж   cmdline.py
+    ж       ж   ж   ж   ж   console.py
+    ж       ж   ж   ж   ж   filter.py
+    ж       ж   ж   ж   ж   formatter.py
+    ж       ж   ж   ж   ж   lexer.py
+    ж       ж   ж   ж   ж   modeline.py
+    ж       ж   ж   ж   ж   plugin.py
+    ж       ж   ж   ж   ж   regexopt.py
+    ж       ж   ж   ж   ж   scanner.py
+    ж       ж   ж   ж   ж   sphinxext.py
+    ж       ж   ж   ж   ж   style.py
+    ж       ж   ж   ж   ж   token.py
+    ж       ж   ж   ж   ж   unistring.py
+    ж       ж   ж   ж   ж   util.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   __main__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---filters
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   +---formatters
+    ж       ж   ж   ж   ж   ж   bbcode.py
+    ж       ж   ж   ж   ж   ж   groff.py
+    ж       ж   ж   ж   ж   ж   html.py
+    ж       ж   ж   ж   ж   ж   img.py
+    ж       ж   ж   ж   ж   ж   irc.py
+    ж       ж   ж   ж   ж   ж   latex.py
+    ж       ж   ж   ж   ж   ж   other.py
+    ж       ж   ж   ж   ж   ж   pangomarkup.py
+    ж       ж   ж   ж   ж   ж   rtf.py
+    ж       ж   ж   ж   ж   ж   svg.py
+    ж       ж   ж   ж   ж   ж   terminal.py
+    ж       ж   ж   ж   ж   ж   terminal256.py
+    ж       ж   ж   ж   ж   ж   _mapping.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           bbcode.cpython-313.pyc
+    ж       ж   ж   ж   ж           groff.cpython-313.pyc
+    ж       ж   ж   ж   ж           html.cpython-313.pyc
+    ж       ж   ж   ж   ж           img.cpython-313.pyc
+    ж       ж   ж   ж   ж           irc.cpython-313.pyc
+    ж       ж   ж   ж   ж           latex.cpython-313.pyc
+    ж       ж   ж   ж   ж           other.cpython-313.pyc
+    ж       ж   ж   ж   ж           pangomarkup.cpython-313.pyc
+    ж       ж   ж   ж   ж           rtf.cpython-313.pyc
+    ж       ж   ж   ж   ж           svg.cpython-313.pyc
+    ж       ж   ж   ж   ж           terminal.cpython-313.pyc
+    ж       ж   ж   ж   ж           terminal256.cpython-313.pyc
+    ж       ж   ж   ж   ж           _mapping.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   +---lexers
+    ж       ж   ж   ж   ж   ж   python.py
+    ж       ж   ж   ж   ж   ж   _mapping.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           python.cpython-313.pyc
+    ж       ж   ж   ж   ж           _mapping.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   +---styles
+    ж       ж   ж   ж   ж   ж   _mapping.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           _mapping.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           cmdline.cpython-313.pyc
+    ж       ж   ж   ж           console.cpython-313.pyc
+    ж       ж   ж   ж           filter.cpython-313.pyc
+    ж       ж   ж   ж           formatter.cpython-313.pyc
+    ж       ж   ж   ж           lexer.cpython-313.pyc
+    ж       ж   ж   ж           modeline.cpython-313.pyc
+    ж       ж   ж   ж           plugin.cpython-313.pyc
+    ж       ж   ж   ж           regexopt.cpython-313.pyc
+    ж       ж   ж   ж           scanner.cpython-313.pyc
+    ж       ж   ж   ж           sphinxext.cpython-313.pyc
+    ж       ж   ж   ж           style.cpython-313.pyc
+    ж       ж   ж   ж           token.cpython-313.pyc
+    ж       ж   ж   ж           unistring.cpython-313.pyc
+    ж       ж   ж   ж           util.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           __main__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---pyproject_hooks
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   _impl.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---_in_process
+    ж       ж   ж   ж   ж   ж   _in_process.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           _in_process.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           _impl.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---requests
+    ж       ж   ж   ж   ж   adapters.py
+    ж       ж   ж   ж   ж   api.py
+    ж       ж   ж   ж   ж   auth.py
+    ж       ж   ж   ж   ж   certs.py
+    ж       ж   ж   ж   ж   compat.py
+    ж       ж   ж   ж   ж   cookies.py
+    ж       ж   ж   ж   ж   exceptions.py
+    ж       ж   ж   ж   ж   help.py
+    ж       ж   ж   ж   ж   hooks.py
+    ж       ж   ж   ж   ж   models.py
+    ж       ж   ж   ж   ж   packages.py
+    ж       ж   ж   ж   ж   sessions.py
+    ж       ж   ж   ж   ж   status_codes.py
+    ж       ж   ж   ж   ж   structures.py
+    ж       ж   ж   ж   ж   utils.py
+    ж       ж   ж   ж   ж   _internal_utils.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   __version__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           adapters.cpython-313.pyc
+    ж       ж   ж   ж           api.cpython-313.pyc
+    ж       ж   ж   ж           auth.cpython-313.pyc
+    ж       ж   ж   ж           certs.cpython-313.pyc
+    ж       ж   ж   ж           compat.cpython-313.pyc
+    ж       ж   ж   ж           cookies.cpython-313.pyc
+    ж       ж   ж   ж           exceptions.cpython-313.pyc
+    ж       ж   ж   ж           help.cpython-313.pyc
+    ж       ж   ж   ж           hooks.cpython-313.pyc
+    ж       ж   ж   ж           models.cpython-313.pyc
+    ж       ж   ж   ж           packages.cpython-313.pyc
+    ж       ж   ж   ж           sessions.cpython-313.pyc
+    ж       ж   ж   ж           status_codes.cpython-313.pyc
+    ж       ж   ж   ж           structures.cpython-313.pyc
+    ж       ж   ж   ж           utils.cpython-313.pyc
+    ж       ж   ж   ж           _internal_utils.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           __version__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---resolvelib
+    ж       ж   ж   ж   ж   providers.py
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   reporters.py
+    ж       ж   ж   ж   ж   resolvers.py
+    ж       ж   ж   ж   ж   structs.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---compat
+    ж       ж   ж   ж   ж   ж   collections_abc.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           collections_abc.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           providers.cpython-313.pyc
+    ж       ж   ж   ж           reporters.cpython-313.pyc
+    ж       ж   ж   ж           resolvers.cpython-313.pyc
+    ж       ж   ж   ж           structs.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---rich
+    ж       ж   ж   ж   ж   abc.py
+    ж       ж   ж   ж   ж   align.py
+    ж       ж   ж   ж   ж   ansi.py
+    ж       ж   ж   ж   ж   bar.py
+    ж       ж   ж   ж   ж   box.py
+    ж       ж   ж   ж   ж   cells.py
+    ж       ж   ж   ж   ж   color.py
+    ж       ж   ж   ж   ж   color_triplet.py
+    ж       ж   ж   ж   ж   columns.py
+    ж       ж   ж   ж   ж   console.py
+    ж       ж   ж   ж   ж   constrain.py
+    ж       ж   ж   ж   ж   containers.py
+    ж       ж   ж   ж   ж   control.py
+    ж       ж   ж   ж   ж   default_styles.py
+    ж       ж   ж   ж   ж   diagnose.py
+    ж       ж   ж   ж   ж   emoji.py
+    ж       ж   ж   ж   ж   errors.py
+    ж       ж   ж   ж   ж   filesize.py
+    ж       ж   ж   ж   ж   file_proxy.py
+    ж       ж   ж   ж   ж   highlighter.py
+    ж       ж   ж   ж   ж   json.py
+    ж       ж   ж   ж   ж   jupyter.py
+    ж       ж   ж   ж   ж   layout.py
+    ж       ж   ж   ж   ж   live.py
+    ж       ж   ж   ж   ж   live_render.py
+    ж       ж   ж   ж   ж   logging.py
+    ж       ж   ж   ж   ж   markup.py
+    ж       ж   ж   ж   ж   measure.py
+    ж       ж   ж   ж   ж   padding.py
+    ж       ж   ж   ж   ж   pager.py
+    ж       ж   ж   ж   ж   palette.py
+    ж       ж   ж   ж   ж   panel.py
+    ж       ж   ж   ж   ж   pretty.py
+    ж       ж   ж   ж   ж   progress.py
+    ж       ж   ж   ж   ж   progress_bar.py
+    ж       ж   ж   ж   ж   prompt.py
+    ж       ж   ж   ж   ж   protocol.py
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   region.py
+    ж       ж   ж   ж   ж   repr.py
+    ж       ж   ж   ж   ж   rule.py
+    ж       ж   ж   ж   ж   scope.py
+    ж       ж   ж   ж   ж   screen.py
+    ж       ж   ж   ж   ж   segment.py
+    ж       ж   ж   ж   ж   spinner.py
+    ж       ж   ж   ж   ж   status.py
+    ж       ж   ж   ж   ж   style.py
+    ж       ж   ж   ж   ж   styled.py
+    ж       ж   ж   ж   ж   syntax.py
+    ж       ж   ж   ж   ж   table.py
+    ж       ж   ж   ж   ж   terminal_theme.py
+    ж       ж   ж   ж   ж   text.py
+    ж       ж   ж   ж   ж   theme.py
+    ж       ж   ж   ж   ж   themes.py
+    ж       ж   ж   ж   ж   traceback.py
+    ж       ж   ж   ж   ж   tree.py
+    ж       ж   ж   ж   ж   _cell_widths.py
+    ж       ж   ж   ж   ж   _emoji_codes.py
+    ж       ж   ж   ж   ж   _emoji_replace.py
+    ж       ж   ж   ж   ж   _export_format.py
+    ж       ж   ж   ж   ж   _extension.py
+    ж       ж   ж   ж   ж   _fileno.py
+    ж       ж   ж   ж   ж   _inspect.py
+    ж       ж   ж   ж   ж   _log_render.py
+    ж       ж   ж   ж   ж   _loop.py
+    ж       ж   ж   ж   ж   _null_file.py
+    ж       ж   ж   ж   ж   _palettes.py
+    ж       ж   ж   ж   ж   _pick.py
+    ж       ж   ж   ж   ж   _ratio.py
+    ж       ж   ж   ж   ж   _spinners.py
+    ж       ж   ж   ж   ж   _stack.py
+    ж       ж   ж   ж   ж   _timer.py
+    ж       ж   ж   ж   ж   _win32_console.py
+    ж       ж   ж   ж   ж   _windows.py
+    ж       ж   ж   ж   ж   _windows_renderer.py
+    ж       ж   ж   ж   ж   _wrap.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   __main__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           abc.cpython-313.pyc
+    ж       ж   ж   ж           align.cpython-313.pyc
+    ж       ж   ж   ж           ansi.cpython-313.pyc
+    ж       ж   ж   ж           bar.cpython-313.pyc
+    ж       ж   ж   ж           box.cpython-313.pyc
+    ж       ж   ж   ж           cells.cpython-313.pyc
+    ж       ж   ж   ж           color.cpython-313.pyc
+    ж       ж   ж   ж           color_triplet.cpython-313.pyc
+    ж       ж   ж   ж           columns.cpython-313.pyc
+    ж       ж   ж   ж           console.cpython-313.pyc
+    ж       ж   ж   ж           constrain.cpython-313.pyc
+    ж       ж   ж   ж           containers.cpython-313.pyc
+    ж       ж   ж   ж           control.cpython-313.pyc
+    ж       ж   ж   ж           default_styles.cpython-313.pyc
+    ж       ж   ж   ж           diagnose.cpython-313.pyc
+    ж       ж   ж   ж           emoji.cpython-313.pyc
+    ж       ж   ж   ж           errors.cpython-313.pyc
+    ж       ж   ж   ж           filesize.cpython-313.pyc
+    ж       ж   ж   ж           file_proxy.cpython-313.pyc
+    ж       ж   ж   ж           highlighter.cpython-313.pyc
+    ж       ж   ж   ж           json.cpython-313.pyc
+    ж       ж   ж   ж           jupyter.cpython-313.pyc
+    ж       ж   ж   ж           layout.cpython-313.pyc
+    ж       ж   ж   ж           live.cpython-313.pyc
+    ж       ж   ж   ж           live_render.cpython-313.pyc
+    ж       ж   ж   ж           logging.cpython-313.pyc
+    ж       ж   ж   ж           markup.cpython-313.pyc
+    ж       ж   ж   ж           measure.cpython-313.pyc
+    ж       ж   ж   ж           padding.cpython-313.pyc
+    ж       ж   ж   ж           pager.cpython-313.pyc
+    ж       ж   ж   ж           palette.cpython-313.pyc
+    ж       ж   ж   ж           panel.cpython-313.pyc
+    ж       ж   ж   ж           pretty.cpython-313.pyc
+    ж       ж   ж   ж           progress.cpython-313.pyc
+    ж       ж   ж   ж           progress_bar.cpython-313.pyc
+    ж       ж   ж   ж           prompt.cpython-313.pyc
+    ж       ж   ж   ж           protocol.cpython-313.pyc
+    ж       ж   ж   ж           region.cpython-313.pyc
+    ж       ж   ж   ж           repr.cpython-313.pyc
+    ж       ж   ж   ж           rule.cpython-313.pyc
+    ж       ж   ж   ж           scope.cpython-313.pyc
+    ж       ж   ж   ж           screen.cpython-313.pyc
+    ж       ж   ж   ж           segment.cpython-313.pyc
+    ж       ж   ж   ж           spinner.cpython-313.pyc
+    ж       ж   ж   ж           status.cpython-313.pyc
+    ж       ж   ж   ж           style.cpython-313.pyc
+    ж       ж   ж   ж           styled.cpython-313.pyc
+    ж       ж   ж   ж           syntax.cpython-313.pyc
+    ж       ж   ж   ж           table.cpython-313.pyc
+    ж       ж   ж   ж           terminal_theme.cpython-313.pyc
+    ж       ж   ж   ж           text.cpython-313.pyc
+    ж       ж   ж   ж           theme.cpython-313.pyc
+    ж       ж   ж   ж           themes.cpython-313.pyc
+    ж       ж   ж   ж           traceback.cpython-313.pyc
+    ж       ж   ж   ж           tree.cpython-313.pyc
+    ж       ж   ж   ж           _cell_widths.cpython-313.pyc
+    ж       ж   ж   ж           _emoji_codes.cpython-313.pyc
+    ж       ж   ж   ж           _emoji_replace.cpython-313.pyc
+    ж       ж   ж   ж           _export_format.cpython-313.pyc
+    ж       ж   ж   ж           _extension.cpython-313.pyc
+    ж       ж   ж   ж           _fileno.cpython-313.pyc
+    ж       ж   ж   ж           _inspect.cpython-313.pyc
+    ж       ж   ж   ж           _log_render.cpython-313.pyc
+    ж       ж   ж   ж           _loop.cpython-313.pyc
+    ж       ж   ж   ж           _null_file.cpython-313.pyc
+    ж       ж   ж   ж           _palettes.cpython-313.pyc
+    ж       ж   ж   ж           _pick.cpython-313.pyc
+    ж       ж   ж   ж           _ratio.cpython-313.pyc
+    ж       ж   ж   ж           _spinners.cpython-313.pyc
+    ж       ж   ж   ж           _stack.cpython-313.pyc
+    ж       ж   ж   ж           _timer.cpython-313.pyc
+    ж       ж   ж   ж           _win32_console.cpython-313.pyc
+    ж       ж   ж   ж           _windows.cpython-313.pyc
+    ж       ж   ж   ж           _windows_renderer.cpython-313.pyc
+    ж       ж   ж   ж           _wrap.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           __main__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---tomli
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   _parser.py
+    ж       ж   ж   ж   ж   _re.py
+    ж       ж   ж   ж   ж   _types.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           _parser.cpython-313.pyc
+    ж       ж   ж   ж           _re.cpython-313.pyc
+    ж       ж   ж   ж           _types.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---truststore
+    ж       ж   ж   ж   ж   py.typed
+    ж       ж   ж   ж   ж   _api.py
+    ж       ж   ж   ж   ж   _macos.py
+    ж       ж   ж   ж   ж   _openssl.py
+    ж       ж   ж   ж   ж   _ssl_constants.py
+    ж       ж   ж   ж   ж   _windows.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           _api.cpython-313.pyc
+    ж       ж   ж   ж           _macos.cpython-313.pyc
+    ж       ж   ж   ж           _openssl.cpython-313.pyc
+    ж       ж   ж   ж           _ssl_constants.cpython-313.pyc
+    ж       ж   ж   ж           _windows.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---urllib3
+    ж       ж   ж   ж   ж   connection.py
+    ж       ж   ж   ж   ж   connectionpool.py
+    ж       ж   ж   ж   ж   exceptions.py
+    ж       ж   ж   ж   ж   fields.py
+    ж       ж   ж   ж   ж   filepost.py
+    ж       ж   ж   ж   ж   poolmanager.py
+    ж       ж   ж   ж   ж   request.py
+    ж       ж   ж   ж   ж   response.py
+    ж       ж   ж   ж   ж   _collections.py
+    ж       ж   ж   ж   ж   _version.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   +---contrib
+    ж       ж   ж   ж   ж   ж   appengine.py
+    ж       ж   ж   ж   ж   ж   ntlmpool.py
+    ж       ж   ж   ж   ж   ж   pyopenssl.py
+    ж       ж   ж   ж   ж   ж   securetransport.py
+    ж       ж   ж   ж   ж   ж   socks.py
+    ж       ж   ж   ж   ж   ж   _appengine_environ.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   +---_securetransport
+    ж       ж   ж   ж   ж   ж   ж   bindings.py
+    ж       ж   ж   ж   ж   ж   ж   low_level.py
+    ж       ж   ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж   ж           bindings.cpython-313.pyc
+    ж       ж   ж   ж   ж   ж           low_level.cpython-313.pyc
+    ж       ж   ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж   ж           
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           appengine.cpython-313.pyc
+    ж       ж   ж   ж   ж           ntlmpool.cpython-313.pyc
+    ж       ж   ж   ж   ж           pyopenssl.cpython-313.pyc
+    ж       ж   ж   ж   ж           securetransport.cpython-313.pyc
+    ж       ж   ж   ж   ж           socks.cpython-313.pyc
+    ж       ж   ж   ж   ж           _appengine_environ.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   +---packages
+    ж       ж   ж   ж   ж   ж   six.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   +---backports
+    ж       ж   ж   ж   ж   ж   ж   makefile.py
+    ж       ж   ж   ж   ж   ж   ж   weakref_finalize.py
+    ж       ж   ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж   ж           makefile.cpython-313.pyc
+    ж       ж   ж   ж   ж   ж           weakref_finalize.cpython-313.pyc
+    ж       ж   ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж   ж           
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           six.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   +---util
+    ж       ж   ж   ж   ж   ж   connection.py
+    ж       ж   ж   ж   ж   ж   proxy.py
+    ж       ж   ж   ж   ж   ж   queue.py
+    ж       ж   ж   ж   ж   ж   request.py
+    ж       ж   ж   ж   ж   ж   response.py
+    ж       ж   ж   ж   ж   ж   retry.py
+    ж       ж   ж   ж   ж   ж   ssltransport.py
+    ж       ж   ж   ж   ж   ж   ssl_.py
+    ж       ж   ж   ж   ж   ж   ssl_match_hostname.py
+    ж       ж   ж   ж   ж   ж   timeout.py
+    ж       ж   ж   ж   ж   ж   url.py
+    ж       ж   ж   ж   ж   ж   wait.py
+    ж       ж   ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   ж   
+    ж       ж   ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж   ж           connection.cpython-313.pyc
+    ж       ж   ж   ж   ж           proxy.cpython-313.pyc
+    ж       ж   ж   ж   ж           queue.cpython-313.pyc
+    ж       ж   ж   ж   ж           request.cpython-313.pyc
+    ж       ж   ж   ж   ж           response.cpython-313.pyc
+    ж       ж   ж   ж   ж           retry.cpython-313.pyc
+    ж       ж   ж   ж   ж           ssltransport.cpython-313.pyc
+    ж       ж   ж   ж   ж           ssl_.cpython-313.pyc
+    ж       ж   ж   ж   ж           ssl_match_hostname.cpython-313.pyc
+    ж       ж   ж   ж   ж           timeout.cpython-313.pyc
+    ж       ж   ж   ж   ж           url.cpython-313.pyc
+    ж       ж   ж   ж   ж           wait.cpython-313.pyc
+    ж       ж   ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж   ж           
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           connection.cpython-313.pyc
+    ж       ж   ж   ж           connectionpool.cpython-313.pyc
+    ж       ж   ж   ж           exceptions.cpython-313.pyc
+    ж       ж   ж   ж           fields.cpython-313.pyc
+    ж       ж   ж   ж           filepost.cpython-313.pyc
+    ж       ж   ж   ж           poolmanager.cpython-313.pyc
+    ж       ж   ж   ж           request.cpython-313.pyc
+    ж       ж   ж   ж           response.cpython-313.pyc
+    ж       ж   ж   ж           _collections.cpython-313.pyc
+    ж       ж   ж   ж           _version.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           typing_extensions.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           __main__.cpython-313.pyc
+    ж       ж           __pip-runner__.cpython-313.pyc
+    ж       ж           
+    ж       +---pip-25.0.1.dist-info
+    ж       ж       AUTHORS.txt
+    ж       ж       entry_points.txt
+    ж       ж       INSTALLER
+    ж       ж       LICENSE.txt
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       REQUESTED
+    ж       ж       top_level.txt
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---python_dotenv-1.1.0.dist-info
+    ж       ж   ж   entry_points.txt
+    ж       ж   ж   INSTALLER
+    ж       ж   ж   METADATA
+    ж       ж   ж   RECORD
+    ж       ж   ж   REQUESTED
+    ж       ж   ж   top_level.txt
+    ж       ж   ж   WHEEL
+    ж       ж   ж   
+    ж       ж   L---licenses
+    ж       ж           LICENSE
+    ж       ж           
+    ж       +---python_telegram_bot-22.0.dist-info
+    ж       ж   ж   INSTALLER
+    ж       ж   ж   METADATA
+    ж       ж   ж   RECORD
+    ж       ж   ж   REQUESTED
+    ж       ж   ж   WHEEL
+    ж       ж   ж   
+    ж       ж   L---licenses
+    ж       ж           LICENSE
+    ж       ж           LICENSE.dual
+    ж       ж           LICENSE.lesser
+    ж       ж           
+    ж       +---requests
+    ж       ж   ж   adapters.py
+    ж       ж   ж   api.py
+    ж       ж   ж   auth.py
+    ж       ж   ж   certs.py
+    ж       ж   ж   compat.py
+    ж       ж   ж   cookies.py
+    ж       ж   ж   exceptions.py
+    ж       ж   ж   help.py
+    ж       ж   ж   hooks.py
+    ж       ж   ж   models.py
+    ж       ж   ж   packages.py
+    ж       ж   ж   sessions.py
+    ж       ж   ж   status_codes.py
+    ж       ж   ж   structures.py
+    ж       ж   ж   utils.py
+    ж       ж   ж   _internal_utils.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   __version__.py
+    ж       ж   ж   
+    ж       ж   L---__pycache__
+    ж       ж           adapters.cpython-313.pyc
+    ж       ж           api.cpython-313.pyc
+    ж       ж           auth.cpython-313.pyc
+    ж       ж           certs.cpython-313.pyc
+    ж       ж           compat.cpython-313.pyc
+    ж       ж           cookies.cpython-313.pyc
+    ж       ж           exceptions.cpython-313.pyc
+    ж       ж           help.cpython-313.pyc
+    ж       ж           hooks.cpython-313.pyc
+    ж       ж           models.cpython-313.pyc
+    ж       ж           packages.cpython-313.pyc
+    ж       ж           sessions.cpython-313.pyc
+    ж       ж           status_codes.cpython-313.pyc
+    ж       ж           structures.cpython-313.pyc
+    ж       ж           utils.cpython-313.pyc
+    ж       ж           _internal_utils.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           __version__.cpython-313.pyc
+    ж       ж           
+    ж       +---requests-2.32.3.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       REQUESTED
+    ж       ж       top_level.txt
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---sniffio
+    ж       ж   ж   py.typed
+    ж       ж   ж   _impl.py
+    ж       ж   ж   _version.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   +---_tests
+    ж       ж   ж   ж   test_sniffio.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           test_sniffio.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           _impl.cpython-313.pyc
+    ж       ж           _version.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---sniffio-1.3.1.dist-info
+    ж       ж       INSTALLER
+    ж       ж       LICENSE
+    ж       ж       LICENSE.APACHE2
+    ж       ж       LICENSE.MIT
+    ж       ж       METADATA
+    ж       ж       RECORD
+    ж       ж       top_level.txt
+    ж       ж       WHEEL
+    ж       ж       
+    ж       +---telegram
+    ж       ж   ж   constants.py
+    ж       ж   ж   error.py
+    ж       ж   ж   helpers.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   warnings.py
+    ж       ж   ж   _birthdate.py
+    ж       ж   ж   _bot.py
+    ж       ж   ж   _botcommand.py
+    ж       ж   ж   _botcommandscope.py
+    ж       ж   ж   _botdescription.py
+    ж       ж   ж   _botname.py
+    ж       ж   ж   _business.py
+    ж       ж   ж   _callbackquery.py
+    ж       ж   ж   _chat.py
+    ж       ж   ж   _chatadministratorrights.py
+    ж       ж   ж   _chatbackground.py
+    ж       ж   ж   _chatboost.py
+    ж       ж   ж   _chatfullinfo.py
+    ж       ж   ж   _chatinvitelink.py
+    ж       ж   ж   _chatjoinrequest.py
+    ж       ж   ж   _chatlocation.py
+    ж       ж   ж   _chatmember.py
+    ж       ж   ж   _chatmemberupdated.py
+    ж       ж   ж   _chatpermissions.py
+    ж       ж   ж   _choseninlineresult.py
+    ж       ж   ж   _copytextbutton.py
+    ж       ж   ж   _dice.py
+    ж       ж   ж   _forcereply.py
+    ж       ж   ж   _forumtopic.py
+    ж       ж   ж   _gifts.py
+    ж       ж   ж   _giveaway.py
+    ж       ж   ж   _keyboardbutton.py
+    ж       ж   ж   _keyboardbuttonpolltype.py
+    ж       ж   ж   _keyboardbuttonrequest.py
+    ж       ж   ж   _linkpreviewoptions.py
+    ж       ж   ж   _loginurl.py
+    ж       ж   ж   _menubutton.py
+    ж       ж   ж   _message.py
+    ж       ж   ж   _messageautodeletetimerchanged.py
+    ж       ж   ж   _messageentity.py
+    ж       ж   ж   _messageid.py
+    ж       ж   ж   _messageorigin.py
+    ж       ж   ж   _messagereactionupdated.py
+    ж       ж   ж   _paidmedia.py
+    ж       ж   ж   _poll.py
+    ж       ж   ж   _proximityalerttriggered.py
+    ж       ж   ж   _reaction.py
+    ж       ж   ж   _reply.py
+    ж       ж   ж   _replykeyboardmarkup.py
+    ж       ж   ж   _replykeyboardremove.py
+    ж       ж   ж   _sentwebappmessage.py
+    ж       ж   ж   _shared.py
+    ж       ж   ж   _story.py
+    ж       ж   ж   _switchinlinequerychosenchat.py
+    ж       ж   ж   _telegramobject.py
+    ж       ж   ж   _update.py
+    ж       ж   ж   _user.py
+    ж       ж   ж   _userprofilephotos.py
+    ж       ж   ж   _version.py
+    ж       ж   ж   _videochat.py
+    ж       ж   ж   _webappdata.py
+    ж       ж   ж   _webappinfo.py
+    ж       ж   ж   _webhookinfo.py
+    ж       ж   ж   _writeaccessallowed.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   __main__.py
+    ж       ж   ж   
+    ж       ж   +---ext
+    ж       ж   ж   ж   filters.py
+    ж       ж   ж   ж   _aioratelimiter.py
+    ж       ж   ж   ж   _application.py
+    ж       ж   ж   ж   _applicationbuilder.py
+    ж       ж   ж   ж   _basepersistence.py
+    ж       ж   ж   ж   _baseratelimiter.py
+    ж       ж   ж   ж   _baseupdateprocessor.py
+    ж       ж   ж   ж   _callbackcontext.py
+    ж       ж   ж   ж   _callbackdatacache.py
+    ж       ж   ж   ж   _contexttypes.py
+    ж       ж   ж   ж   _defaults.py
+    ж       ж   ж   ж   _dictpersistence.py
+    ж       ж   ж   ж   _extbot.py
+    ж       ж   ж   ж   _jobqueue.py
+    ж       ж   ж   ж   _picklepersistence.py
+    ж       ж   ж   ж   _updater.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   +---_handlers
+    ж       ж   ж   ж   ж   basehandler.py
+    ж       ж   ж   ж   ж   businessconnectionhandler.py
+    ж       ж   ж   ж   ж   businessmessagesdeletedhandler.py
+    ж       ж   ж   ж   ж   callbackqueryhandler.py
+    ж       ж   ж   ж   ж   chatboosthandler.py
+    ж       ж   ж   ж   ж   chatjoinrequesthandler.py
+    ж       ж   ж   ж   ж   chatmemberhandler.py
+    ж       ж   ж   ж   ж   choseninlineresulthandler.py
+    ж       ж   ж   ж   ж   commandhandler.py
+    ж       ж   ж   ж   ж   conversationhandler.py
+    ж       ж   ж   ж   ж   inlinequeryhandler.py
+    ж       ж   ж   ж   ж   messagehandler.py
+    ж       ж   ж   ж   ж   messagereactionhandler.py
+    ж       ж   ж   ж   ж   paidmediapurchasedhandler.py
+    ж       ж   ж   ж   ж   pollanswerhandler.py
+    ж       ж   ж   ж   ж   pollhandler.py
+    ж       ж   ж   ж   ж   precheckoutqueryhandler.py
+    ж       ж   ж   ж   ж   prefixhandler.py
+    ж       ж   ж   ж   ж   shippingqueryhandler.py
+    ж       ж   ж   ж   ж   stringcommandhandler.py
+    ж       ж   ж   ж   ж   stringregexhandler.py
+    ж       ж   ж   ж   ж   typehandler.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           basehandler.cpython-313.pyc
+    ж       ж   ж   ж           businessconnectionhandler.cpython-313.pyc
+    ж       ж   ж   ж           businessmessagesdeletedhandler.cpython-313.pyc
+    ж       ж   ж   ж           callbackqueryhandler.cpython-313.pyc
+    ж       ж   ж   ж           chatboosthandler.cpython-313.pyc
+    ж       ж   ж   ж           chatjoinrequesthandler.cpython-313.pyc
+    ж       ж   ж   ж           chatmemberhandler.cpython-313.pyc
+    ж       ж   ж   ж           choseninlineresulthandler.cpython-313.pyc
+    ж       ж   ж   ж           commandhandler.cpython-313.pyc
+    ж       ж   ж   ж           conversationhandler.cpython-313.pyc
+    ж       ж   ж   ж           inlinequeryhandler.cpython-313.pyc
+    ж       ж   ж   ж           messagehandler.cpython-313.pyc
+    ж       ж   ж   ж           messagereactionhandler.cpython-313.pyc
+    ж       ж   ж   ж           paidmediapurchasedhandler.cpython-313.pyc
+    ж       ж   ж   ж           pollanswerhandler.cpython-313.pyc
+    ж       ж   ж   ж           pollhandler.cpython-313.pyc
+    ж       ж   ж   ж           precheckoutqueryhandler.cpython-313.pyc
+    ж       ж   ж   ж           prefixhandler.cpython-313.pyc
+    ж       ж   ж   ж           shippingqueryhandler.cpython-313.pyc
+    ж       ж   ж   ж           stringcommandhandler.cpython-313.pyc
+    ж       ж   ж   ж           stringregexhandler.cpython-313.pyc
+    ж       ж   ж   ж           typehandler.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   +---_utils
+    ж       ж   ж   ж   ж   asyncio.py
+    ж       ж   ж   ж   ж   networkloop.py
+    ж       ж   ж   ж   ж   stack.py
+    ж       ж   ж   ж   ж   trackingdict.py
+    ж       ж   ж   ж   ж   types.py
+    ж       ж   ж   ж   ж   webhookhandler.py
+    ж       ж   ж   ж   ж   _update_parsing.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           asyncio.cpython-313.pyc
+    ж       ж   ж   ж           networkloop.cpython-313.pyc
+    ж       ж   ж   ж           stack.cpython-313.pyc
+    ж       ж   ж   ж           trackingdict.cpython-313.pyc
+    ж       ж   ж   ж           types.cpython-313.pyc
+    ж       ж   ж   ж           webhookhandler.cpython-313.pyc
+    ж       ж   ж   ж           _update_parsing.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           filters.cpython-313.pyc
+    ж       ж   ж           _aioratelimiter.cpython-313.pyc
+    ж       ж   ж           _application.cpython-313.pyc
+    ж       ж   ж           _applicationbuilder.cpython-313.pyc
+    ж       ж   ж           _basepersistence.cpython-313.pyc
+    ж       ж   ж           _baseratelimiter.cpython-313.pyc
+    ж       ж   ж           _baseupdateprocessor.cpython-313.pyc
+    ж       ж   ж           _callbackcontext.cpython-313.pyc
+    ж       ж   ж           _callbackdatacache.cpython-313.pyc
+    ж       ж   ж           _contexttypes.cpython-313.pyc
+    ж       ж   ж           _defaults.cpython-313.pyc
+    ж       ж   ж           _dictpersistence.cpython-313.pyc
+    ж       ж   ж           _extbot.cpython-313.pyc
+    ж       ж   ж           _jobqueue.cpython-313.pyc
+    ж       ж   ж           _picklepersistence.cpython-313.pyc
+    ж       ж   ж           _updater.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---request
+    ж       ж   ж   ж   _baserequest.py
+    ж       ж   ж   ж   _httpxrequest.py
+    ж       ж   ж   ж   _requestdata.py
+    ж       ж   ж   ж   _requestparameter.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           _baserequest.cpython-313.pyc
+    ж       ж   ж           _httpxrequest.cpython-313.pyc
+    ж       ж   ж           _requestdata.cpython-313.pyc
+    ж       ж   ж           _requestparameter.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_files
+    ж       ж   ж   ж   animation.py
+    ж       ж   ж   ж   audio.py
+    ж       ж   ж   ж   chatphoto.py
+    ж       ж   ж   ж   contact.py
+    ж       ж   ж   ж   document.py
+    ж       ж   ж   ж   file.py
+    ж       ж   ж   ж   inputfile.py
+    ж       ж   ж   ж   inputmedia.py
+    ж       ж   ж   ж   inputsticker.py
+    ж       ж   ж   ж   location.py
+    ж       ж   ж   ж   photosize.py
+    ж       ж   ж   ж   sticker.py
+    ж       ж   ж   ж   venue.py
+    ж       ж   ж   ж   video.py
+    ж       ж   ж   ж   videonote.py
+    ж       ж   ж   ж   voice.py
+    ж       ж   ж   ж   _basemedium.py
+    ж       ж   ж   ж   _basethumbedmedium.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           animation.cpython-313.pyc
+    ж       ж   ж           audio.cpython-313.pyc
+    ж       ж   ж           chatphoto.cpython-313.pyc
+    ж       ж   ж           contact.cpython-313.pyc
+    ж       ж   ж           document.cpython-313.pyc
+    ж       ж   ж           file.cpython-313.pyc
+    ж       ж   ж           inputfile.cpython-313.pyc
+    ж       ж   ж           inputmedia.cpython-313.pyc
+    ж       ж   ж           inputsticker.cpython-313.pyc
+    ж       ж   ж           location.cpython-313.pyc
+    ж       ж   ж           photosize.cpython-313.pyc
+    ж       ж   ж           sticker.cpython-313.pyc
+    ж       ж   ж           venue.cpython-313.pyc
+    ж       ж   ж           video.cpython-313.pyc
+    ж       ж   ж           videonote.cpython-313.pyc
+    ж       ж   ж           voice.cpython-313.pyc
+    ж       ж   ж           _basemedium.cpython-313.pyc
+    ж       ж   ж           _basethumbedmedium.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_games
+    ж       ж   ж   ж   callbackgame.py
+    ж       ж   ж   ж   game.py
+    ж       ж   ж   ж   gamehighscore.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           callbackgame.cpython-313.pyc
+    ж       ж   ж           game.cpython-313.pyc
+    ж       ж   ж           gamehighscore.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_inline
+    ж       ж   ж   ж   inlinekeyboardbutton.py
+    ж       ж   ж   ж   inlinekeyboardmarkup.py
+    ж       ж   ж   ж   inlinequery.py
+    ж       ж   ж   ж   inlinequeryresult.py
+    ж       ж   ж   ж   inlinequeryresultarticle.py
+    ж       ж   ж   ж   inlinequeryresultaudio.py
+    ж       ж   ж   ж   inlinequeryresultcachedaudio.py
+    ж       ж   ж   ж   inlinequeryresultcacheddocument.py
+    ж       ж   ж   ж   inlinequeryresultcachedgif.py
+    ж       ж   ж   ж   inlinequeryresultcachedmpeg4gif.py
+    ж       ж   ж   ж   inlinequeryresultcachedphoto.py
+    ж       ж   ж   ж   inlinequeryresultcachedsticker.py
+    ж       ж   ж   ж   inlinequeryresultcachedvideo.py
+    ж       ж   ж   ж   inlinequeryresultcachedvoice.py
+    ж       ж   ж   ж   inlinequeryresultcontact.py
+    ж       ж   ж   ж   inlinequeryresultdocument.py
+    ж       ж   ж   ж   inlinequeryresultgame.py
+    ж       ж   ж   ж   inlinequeryresultgif.py
+    ж       ж   ж   ж   inlinequeryresultlocation.py
+    ж       ж   ж   ж   inlinequeryresultmpeg4gif.py
+    ж       ж   ж   ж   inlinequeryresultphoto.py
+    ж       ж   ж   ж   inlinequeryresultsbutton.py
+    ж       ж   ж   ж   inlinequeryresultvenue.py
+    ж       ж   ж   ж   inlinequeryresultvideo.py
+    ж       ж   ж   ж   inlinequeryresultvoice.py
+    ж       ж   ж   ж   inputcontactmessagecontent.py
+    ж       ж   ж   ж   inputinvoicemessagecontent.py
+    ж       ж   ж   ж   inputlocationmessagecontent.py
+    ж       ж   ж   ж   inputmessagecontent.py
+    ж       ж   ж   ж   inputtextmessagecontent.py
+    ж       ж   ж   ж   inputvenuemessagecontent.py
+    ж       ж   ж   ж   preparedinlinemessage.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           inlinekeyboardbutton.cpython-313.pyc
+    ж       ж   ж           inlinekeyboardmarkup.cpython-313.pyc
+    ж       ж   ж           inlinequery.cpython-313.pyc
+    ж       ж   ж           inlinequeryresult.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultarticle.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultaudio.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcachedaudio.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcacheddocument.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcachedgif.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcachedmpeg4gif.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcachedphoto.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcachedsticker.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcachedvideo.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcachedvoice.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultcontact.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultdocument.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultgame.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultgif.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultlocation.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultmpeg4gif.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultphoto.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultsbutton.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultvenue.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultvideo.cpython-313.pyc
+    ж       ж   ж           inlinequeryresultvoice.cpython-313.pyc
+    ж       ж   ж           inputcontactmessagecontent.cpython-313.pyc
+    ж       ж   ж           inputinvoicemessagecontent.cpython-313.pyc
+    ж       ж   ж           inputlocationmessagecontent.cpython-313.pyc
+    ж       ж   ж           inputmessagecontent.cpython-313.pyc
+    ж       ж   ж           inputtextmessagecontent.cpython-313.pyc
+    ж       ж   ж           inputvenuemessagecontent.cpython-313.pyc
+    ж       ж   ж           preparedinlinemessage.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_passport
+    ж       ж   ж   ж   credentials.py
+    ж       ж   ж   ж   data.py
+    ж       ж   ж   ж   encryptedpassportelement.py
+    ж       ж   ж   ж   passportdata.py
+    ж       ж   ж   ж   passportelementerrors.py
+    ж       ж   ж   ж   passportfile.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           credentials.cpython-313.pyc
+    ж       ж   ж           data.cpython-313.pyc
+    ж       ж   ж           encryptedpassportelement.cpython-313.pyc
+    ж       ж   ж           passportdata.cpython-313.pyc
+    ж       ж   ж           passportelementerrors.cpython-313.pyc
+    ж       ж   ж           passportfile.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_payment
+    ж       ж   ж   ж   invoice.py
+    ж       ж   ж   ж   labeledprice.py
+    ж       ж   ж   ж   orderinfo.py
+    ж       ж   ж   ж   precheckoutquery.py
+    ж       ж   ж   ж   refundedpayment.py
+    ж       ж   ж   ж   shippingaddress.py
+    ж       ж   ж   ж   shippingoption.py
+    ж       ж   ж   ж   shippingquery.py
+    ж       ж   ж   ж   successfulpayment.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   +---stars
+    ж       ж   ж   ж   ж   affiliateinfo.py
+    ж       ж   ж   ж   ж   revenuewithdrawalstate.py
+    ж       ж   ж   ж   ж   startransactions.py
+    ж       ж   ж   ж   ж   transactionpartner.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           affiliateinfo.cpython-313.pyc
+    ж       ж   ж   ж           revenuewithdrawalstate.cpython-313.pyc
+    ж       ж   ж   ж           startransactions.cpython-313.pyc
+    ж       ж   ж   ж           transactionpartner.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           invoice.cpython-313.pyc
+    ж       ж   ж           labeledprice.cpython-313.pyc
+    ж       ж   ж           orderinfo.cpython-313.pyc
+    ж       ж   ж           precheckoutquery.cpython-313.pyc
+    ж       ж   ж           refundedpayment.cpython-313.pyc
+    ж       ж   ж           shippingaddress.cpython-313.pyc
+    ж       ж   ж           shippingoption.cpython-313.pyc
+    ж       ж   ж           shippingquery.cpython-313.pyc
+    ж       ж   ж           successfulpayment.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---_utils
+    ж       ж   ж   ж   argumentparsing.py
+    ж       ж   ж   ж   datetime.py
+    ж       ж   ж   ж   defaultvalue.py
+    ж       ж   ж   ж   entities.py
+    ж       ж   ж   ж   enum.py
+    ж       ж   ж   ж   files.py
+    ж       ж   ж   ж   logging.py
+    ж       ж   ж   ж   markup.py
+    ж       ж   ж   ж   repr.py
+    ж       ж   ж   ж   strings.py
+    ж       ж   ж   ж   types.py
+    ж       ж   ж   ж   warnings.py
+    ж       ж   ж   ж   warnings_transition.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           argumentparsing.cpython-313.pyc
+    ж       ж   ж           datetime.cpython-313.pyc
+    ж       ж   ж           defaultvalue.cpython-313.pyc
+    ж       ж   ж           entities.cpython-313.pyc
+    ж       ж   ж           enum.cpython-313.pyc
+    ж       ж   ж           files.cpython-313.pyc
+    ж       ж   ж           logging.cpython-313.pyc
+    ж       ж   ж           markup.cpython-313.pyc
+    ж       ж   ж           repr.cpython-313.pyc
+    ж       ж   ж           strings.cpython-313.pyc
+    ж       ж   ж           types.cpython-313.pyc
+    ж       ж   ж           warnings.cpython-313.pyc
+    ж       ж   ж           warnings_transition.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           constants.cpython-313.pyc
+    ж       ж           error.cpython-313.pyc
+    ж       ж           helpers.cpython-313.pyc
+    ж       ж           warnings.cpython-313.pyc
+    ж       ж           _birthdate.cpython-313.pyc
+    ж       ж           _bot.cpython-313.pyc
+    ж       ж           _botcommand.cpython-313.pyc
+    ж       ж           _botcommandscope.cpython-313.pyc
+    ж       ж           _botdescription.cpython-313.pyc
+    ж       ж           _botname.cpython-313.pyc
+    ж       ж           _business.cpython-313.pyc
+    ж       ж           _callbackquery.cpython-313.pyc
+    ж       ж           _chat.cpython-313.pyc
+    ж       ж           _chatadministratorrights.cpython-313.pyc
+    ж       ж           _chatbackground.cpython-313.pyc
+    ж       ж           _chatboost.cpython-313.pyc
+    ж       ж           _chatfullinfo.cpython-313.pyc
+    ж       ж           _chatinvitelink.cpython-313.pyc
+    ж       ж           _chatjoinrequest.cpython-313.pyc
+    ж       ж           _chatlocation.cpython-313.pyc
+    ж       ж           _chatmember.cpython-313.pyc
+    ж       ж           _chatmemberupdated.cpython-313.pyc
+    ж       ж           _chatpermissions.cpython-313.pyc
+    ж       ж           _choseninlineresult.cpython-313.pyc
+    ж       ж           _copytextbutton.cpython-313.pyc
+    ж       ж           _dice.cpython-313.pyc
+    ж       ж           _forcereply.cpython-313.pyc
+    ж       ж           _forumtopic.cpython-313.pyc
+    ж       ж           _gifts.cpython-313.pyc
+    ж       ж           _giveaway.cpython-313.pyc
+    ж       ж           _keyboardbutton.cpython-313.pyc
+    ж       ж           _keyboardbuttonpolltype.cpython-313.pyc
+    ж       ж           _keyboardbuttonrequest.cpython-313.pyc
+    ж       ж           _linkpreviewoptions.cpython-313.pyc
+    ж       ж           _loginurl.cpython-313.pyc
+    ж       ж           _menubutton.cpython-313.pyc
+    ж       ж           _message.cpython-313.pyc
+    ж       ж           _messageautodeletetimerchanged.cpython-313.pyc
+    ж       ж           _messageentity.cpython-313.pyc
+    ж       ж           _messageid.cpython-313.pyc
+    ж       ж           _messageorigin.cpython-313.pyc
+    ж       ж           _messagereactionupdated.cpython-313.pyc
+    ж       ж           _paidmedia.cpython-313.pyc
+    ж       ж           _poll.cpython-313.pyc
+    ж       ж           _proximityalerttriggered.cpython-313.pyc
+    ж       ж           _reaction.cpython-313.pyc
+    ж       ж           _reply.cpython-313.pyc
+    ж       ж           _replykeyboardmarkup.cpython-313.pyc
+    ж       ж           _replykeyboardremove.cpython-313.pyc
+    ж       ж           _sentwebappmessage.cpython-313.pyc
+    ж       ж           _shared.cpython-313.pyc
+    ж       ж           _story.cpython-313.pyc
+    ж       ж           _switchinlinequerychosenchat.cpython-313.pyc
+    ж       ж           _telegramobject.cpython-313.pyc
+    ж       ж           _update.cpython-313.pyc
+    ж       ж           _user.cpython-313.pyc
+    ж       ж           _userprofilephotos.cpython-313.pyc
+    ж       ж           _version.cpython-313.pyc
+    ж       ж           _videochat.cpython-313.pyc
+    ж       ж           _webappdata.cpython-313.pyc
+    ж       ж           _webappinfo.cpython-313.pyc
+    ж       ж           _webhookinfo.cpython-313.pyc
+    ж       ж           _writeaccessallowed.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           __main__.cpython-313.pyc
+    ж       ж           
+    ж       +---urllib3
+    ж       ж   ж   connection.py
+    ж       ж   ж   connectionpool.py
+    ж       ж   ж   exceptions.py
+    ж       ж   ж   fields.py
+    ж       ж   ж   filepost.py
+    ж       ж   ж   poolmanager.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   response.py
+    ж       ж   ж   _base_connection.py
+    ж       ж   ж   _collections.py
+    ж       ж   ж   _request_methods.py
+    ж       ж   ж   _version.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   +---contrib
+    ж       ж   ж   ж   pyopenssl.py
+    ж       ж   ж   ж   socks.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   +---emscripten
+    ж       ж   ж   ж   ж   connection.py
+    ж       ж   ж   ж   ж   emscripten_fetch_worker.js
+    ж       ж   ж   ж   ж   fetch.py
+    ж       ж   ж   ж   ж   request.py
+    ж       ж   ж   ж   ж   response.py
+    ж       ж   ж   ж   ж   __init__.py
+    ж       ж   ж   ж   ж   
+    ж       ж   ж   ж   L---__pycache__
+    ж       ж   ж   ж           connection.cpython-313.pyc
+    ж       ж   ж   ж           fetch.cpython-313.pyc
+    ж       ж   ж   ж           request.cpython-313.pyc
+    ж       ж   ж   ж           response.cpython-313.pyc
+    ж       ж   ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж   ж           
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           pyopenssl.cpython-313.pyc
+    ж       ж   ж           socks.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---http2
+    ж       ж   ж   ж   connection.py
+    ж       ж   ж   ж   probe.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           connection.cpython-313.pyc
+    ж       ж   ж           probe.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---util
+    ж       ж   ж   ж   connection.py
+    ж       ж   ж   ж   proxy.py
+    ж       ж   ж   ж   request.py
+    ж       ж   ж   ж   response.py
+    ж       ж   ж   ж   retry.py
+    ж       ж   ж   ж   ssltransport.py
+    ж       ж   ж   ж   ssl_.py
+    ж       ж   ж   ж   ssl_match_hostname.py
+    ж       ж   ж   ж   timeout.py
+    ж       ж   ж   ж   url.py
+    ж       ж   ж   ж   util.py
+    ж       ж   ж   ж   wait.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           connection.cpython-313.pyc
+    ж       ж   ж           proxy.cpython-313.pyc
+    ж       ж   ж           request.cpython-313.pyc
+    ж       ж   ж           response.cpython-313.pyc
+    ж       ж   ж           retry.cpython-313.pyc
+    ж       ж   ж           ssltransport.cpython-313.pyc
+    ж       ж   ж           ssl_.cpython-313.pyc
+    ж       ж   ж           ssl_match_hostname.cpython-313.pyc
+    ж       ж   ж           timeout.cpython-313.pyc
+    ж       ж   ж           url.cpython-313.pyc
+    ж       ж   ж           util.cpython-313.pyc
+    ж       ж   ж           wait.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           connection.cpython-313.pyc
+    ж       ж           connectionpool.cpython-313.pyc
+    ж       ж           exceptions.cpython-313.pyc
+    ж       ж           fields.cpython-313.pyc
+    ж       ж           filepost.cpython-313.pyc
+    ж       ж           poolmanager.cpython-313.pyc
+    ж       ж           response.cpython-313.pyc
+    ж       ж           _base_connection.cpython-313.pyc
+    ж       ж           _collections.cpython-313.pyc
+    ж       ж           _request_methods.cpython-313.pyc
+    ж       ж           _version.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       +---urllib3-2.4.0.dist-info
+    ж       ж   ж   INSTALLER
+    ж       ж   ж   METADATA
+    ж       ж   ж   RECORD
+    ж       ж   ж   WHEEL
+    ж       ж   ж   
+    ж       ж   L---licenses
+    ж       ж           LICENSE.txt
+    ж       ж           
+    ж       +---werkzeug
+    ж       ж   ж   exceptions.py
+    ж       ж   ж   formparser.py
+    ж       ж   ж   http.py
+    ж       ж   ж   local.py
+    ж       ж   ж   py.typed
+    ж       ж   ж   security.py
+    ж       ж   ж   serving.py
+    ж       ж   ж   test.py
+    ж       ж   ж   testapp.py
+    ж       ж   ж   urls.py
+    ж       ж   ж   user_agent.py
+    ж       ж   ж   utils.py
+    ж       ж   ж   wsgi.py
+    ж       ж   ж   _internal.py
+    ж       ж   ж   _reloader.py
+    ж       ж   ж   __init__.py
+    ж       ж   ж   
+    ж       ж   +---datastructures
+    ж       ж   ж   ж   accept.py
+    ж       ж   ж   ж   auth.py
+    ж       ж   ж   ж   cache_control.py
+    ж       ж   ж   ж   csp.py
+    ж       ж   ж   ж   etag.py
+    ж       ж   ж   ж   file_storage.py
+    ж       ж   ж   ж   headers.py
+    ж       ж   ж   ж   mixins.py
+    ж       ж   ж   ж   range.py
+    ж       ж   ж   ж   structures.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           accept.cpython-313.pyc
+    ж       ж   ж           auth.cpython-313.pyc
+    ж       ж   ж           cache_control.cpython-313.pyc
+    ж       ж   ж           csp.cpython-313.pyc
+    ж       ж   ж           etag.cpython-313.pyc
+    ж       ж   ж           file_storage.cpython-313.pyc
+    ж       ж   ж           headers.cpython-313.pyc
+    ж       ж   ж           mixins.cpython-313.pyc
+    ж       ж   ж           range.cpython-313.pyc
+    ж       ж   ж           structures.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---debug
+    ж       ж   ж   ж   console.py
+    ж       ж   ж   ж   repr.py
+    ж       ж   ж   ж   tbtools.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   +---shared
+    ж       ж   ж   ж       console.png
+    ж       ж   ж   ж       debugger.js
+    ж       ж   ж   ж       ICON_LICENSE.md
+    ж       ж   ж   ж       less.png
+    ж       ж   ж   ж       more.png
+    ж       ж   ж   ж       style.css
+    ж       ж   ж   ж       
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           console.cpython-313.pyc
+    ж       ж   ж           repr.cpython-313.pyc
+    ж       ж   ж           tbtools.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---middleware
+    ж       ж   ж   ж   dispatcher.py
+    ж       ж   ж   ж   http_proxy.py
+    ж       ж   ж   ж   lint.py
+    ж       ж   ж   ж   profiler.py
+    ж       ж   ж   ж   proxy_fix.py
+    ж       ж   ж   ж   shared_data.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           dispatcher.cpython-313.pyc
+    ж       ж   ж           http_proxy.cpython-313.pyc
+    ж       ж   ж           lint.cpython-313.pyc
+    ж       ж   ж           profiler.cpython-313.pyc
+    ж       ж   ж           proxy_fix.cpython-313.pyc
+    ж       ж   ж           shared_data.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---routing
+    ж       ж   ж   ж   converters.py
+    ж       ж   ж   ж   exceptions.py
+    ж       ж   ж   ж   map.py
+    ж       ж   ж   ж   matcher.py
+    ж       ж   ж   ж   rules.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           converters.cpython-313.pyc
+    ж       ж   ж           exceptions.cpython-313.pyc
+    ж       ж   ж           map.cpython-313.pyc
+    ж       ж   ж           matcher.cpython-313.pyc
+    ж       ж   ж           rules.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---sansio
+    ж       ж   ж   ж   http.py
+    ж       ж   ж   ж   multipart.py
+    ж       ж   ж   ж   request.py
+    ж       ж   ж   ж   response.py
+    ж       ж   ж   ж   utils.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           http.cpython-313.pyc
+    ж       ж   ж           multipart.cpython-313.pyc
+    ж       ж   ж           request.cpython-313.pyc
+    ж       ж   ж           response.cpython-313.pyc
+    ж       ж   ж           utils.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   +---wrappers
+    ж       ж   ж   ж   request.py
+    ж       ж   ж   ж   response.py
+    ж       ж   ж   ж   __init__.py
+    ж       ж   ж   ж   
+    ж       ж   ж   L---__pycache__
+    ж       ж   ж           request.cpython-313.pyc
+    ж       ж   ж           response.cpython-313.pyc
+    ж       ж   ж           __init__.cpython-313.pyc
+    ж       ж   ж           
+    ж       ж   L---__pycache__
+    ж       ж           exceptions.cpython-313.pyc
+    ж       ж           formparser.cpython-313.pyc
+    ж       ж           http.cpython-313.pyc
+    ж       ж           local.cpython-313.pyc
+    ж       ж           security.cpython-313.pyc
+    ж       ж           serving.cpython-313.pyc
+    ж       ж           test.cpython-313.pyc
+    ж       ж           testapp.cpython-313.pyc
+    ж       ж           urls.cpython-313.pyc
+    ж       ж           user_agent.cpython-313.pyc
+    ж       ж           utils.cpython-313.pyc
+    ж       ж           wsgi.cpython-313.pyc
+    ж       ж           _internal.cpython-313.pyc
+    ж       ж           _reloader.cpython-313.pyc
+    ж       ж           __init__.cpython-313.pyc
+    ж       ж           
+    ж       L---werkzeug-3.1.3.dist-info
+    ж               INSTALLER
+    ж               LICENSE.txt
+    ж               METADATA
+    ж               RECORD
+    ж               WHEEL
+    ж               
+    L---Scripts
+            activate
+            activate.bat
+            activate.fish
+            Activate.ps1
+            deactivate.bat
+            dotenv.exe
+            flask.exe
+            httpx.exe
+            normalizer.exe
+            pip.exe
+            pip3.13.exe
+            pip3.exe
+            python.exe
+            pythonw.exe
+            
